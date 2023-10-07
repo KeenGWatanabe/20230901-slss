@@ -14,7 +14,7 @@ function displayAnswer(elementId) {
     alert(`to be a leading lifesaving organisation in the world`);
 }
 else if (elementId === 'contents') {
-    window.open(href="contents.html");
+    window.open(href="contents.html",'chat AI','resizable,height=300,width=500');
 }
     
 }
