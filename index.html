@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lifesaving AI</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body  class="body">
+    <h3 style="padding: 0px; font-family: arial;">Chat with SLSS<br/></h3>
+        <div>from Singapore Lifesaving Society's Manual</div><br/>
+
+    <input id="text_a" type="text;" size="50px;" />
+    <p id="answer"></p>
+    <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="lky()">Chat</button>
+    <div class="dropdown">
+        <button class="dropbtn" style="border-color:aliceblue;"onclick="dropdown()">sample</button>
+        <div class="dropdown-content" id="myDropdown">
+          <input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+          <a href="#" onclick="displayAnswer('attribute')">about the man</a>
+          <a href="#" onclick="displayAnswer('lky')">LKY</a>
+          <a href="#" onclick="displayAnswer('tussaud')">Mdm Tussaud</a>
+          <a href="#" onclick="displayAnswer('works')">Everything works</a>
+          <a href="#" onclick="displayAnswer('equal')">All men equal?</a>
+          <a href="#" onclick="displayAnswer('polling')">Opinion?</a>
+          <a href="#" onclick="displayAnswer('great nation')">Great nation</a>
+          <a href="#" onclick="displayAnswer('managing Sg')">How you manage Singapore?</a>
+          <a href="#" onclick="displayAnswer('life to you')">Life meaning</a>
+          
+        </div>
+      </div>
+    </div>
+    
+
+    
+    <script src="chat.js"></script>
+    <script src="dropdown.js"></script>
+    <script src="list.js"></script>
+    
+</body>
+</html>
