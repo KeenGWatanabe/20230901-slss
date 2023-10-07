@@ -14,10 +14,18 @@ function lky() {
     else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: colds, influenza, measles and mumps, glandular fever, Hepatitis A or B, AIDS, SARS, Herpes, Tuberculosis, some forms of meningitis, some skin infections.SLSS manual`;}
 //s2-hygiene***
 //s3-rescue*
-else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
+else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`>> holding 1 arm under the small of back/the neck of the casualty; OR
+>> both hands under armpits from behind casualty.SLSS manual`;}
 //s3-rescue***
 //s4-resuscitation*
-else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
+else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`
+D-check for Danger;
+R-check for Response;
+S-Shout "call 995 ambulance and get AED from bystanders;
+A-head tilt chin lift check Airway;
+B-10sec check for Breathing;
+C-chest Compression;
+D-Defribrillator asap.SLSS manual`;}
 //s4-resuscitation***
 //s5-emergency care*
 else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}

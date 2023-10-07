@@ -16,5 +16,7 @@ function displayAnswer(elementId) {
 else if (elementId === 'contents') {
     window.open(href="contents.html",'chat AI','resizable,height=300,width=500');
 }
-    
+else if (elementId === 's3Rescue') {
+    window.open(href="s3Rescue.html",'chat AI','resizable,height=300,width=500');
+}    
 }
