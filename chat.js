@@ -11,11 +11,16 @@ function lky() {
 	}else if(inputText.toLowerCase().indexOf("thank you")>-1){
 			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 	}//s2-hygiene*
-    else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: colds, influenza, measles and mumps, glandular fever, Hepatitis A or B, AIDS, SARS, Herpes, Tuberculosis, some forms of meningitis, some skin infections.SLSS manual`;}
+    else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: colds, influenza, measles and mumps, glandular fever, Hepatitis A or B, AIDS, SARS, Herpes, Tuberculosis, some forms of meningitis, some skin infections.-SLSS manual`;}
 //s2-hygiene***
 //s3-rescue*
-else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`>> holding 1 arm under the small of back/the neck of the casualty; OR
->> both hands under armpits from behind casualty.SLSS manual`;}
+else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
+[] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.<SLSS manual>`;}
+else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("deep water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("deep")>-1){document.getElementById("answer").innerHTML=`[] from the side; [] holding the neck and supporting the jaw;
+[] with buoyant aid, rest casualty's neck over elbow joint of the buoyant-aid-holding-arm;
+[] support the chin with the other hand.<SLSS manual>`;}
+else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("positioning")>-1){document.getElementById("answer").innerHTML=`reached point of safety e.g.pool's edge, shore: [] position casualty facing the bank. [] press both arms against casualty's armpits, firm grip on bank support [] one knee may be able to provide additional support. [] casualty head may rest on your shoulder keeping a clear airway.<SLSS manual>`;}
+
 //s3-rescue***
 //s4-resuscitation*
 else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`
@@ -25,26 +30,23 @@ S-Shout "call 995 ambulance and get AED from bystanders;
 A-head tilt chin lift check Airway;
 B-10sec check for Breathing;
 C-chest Compression;
-D-Defribrillator asap.SLSS manual`;}
+D-Defribrillator asap.<SLSS manual>`;}
 //s4-resuscitation***
 //s5-emergency care*
-else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
+//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.<SLSS manual>`;}
 //s5-emergency care***
 //s6-anatomy & physiology*
-else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
+//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
 //s6-anatomy & physiology***
 
 //s7-legal aspects*
-else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
+//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
 //s7-legal aspects***
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
 	
 //	document.getElementById("answer").innerHTML=`<a href="">mt</a>`;}
 //else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
-//	}	
-//else if(inputText.toLowerCase().indexOf("xx")>-1&&inputText.//toLowerCase().indexOf("xx")>-1){
-//		document.getElementById("answer").innerHTML=`<a href="">mt</a>`;
-//								}	
+	
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
 ////sample codes***
