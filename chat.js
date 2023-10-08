@@ -14,6 +14,7 @@ function lky() {
     else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: <br>[]colds, <br>[]influenza, <br>[]measles and mumps, <br>[]glandular fever, <br>[]Hepatitis A or B, <br>[]AIDS, <br>[]SARS, <br>[]Herpes, <br>[]Tuberculosis, <br>[]some forms of meningitis, <br>[]some skin infections.-SLSS manual`;}
 //s2-hygiene***
 //s3-rescue*
+//s3-rescue-support
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1&&inputText.toLowerCase().indexOf("rlss")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("rlss")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps:<br> [] Awareness - recognise emergency & accept responsibility <br>[] Assess situation and make informed judgement <br>[] Action a plan & act on the rescue <br>[] Aftercare - give aid until medical help arrive.(RLSS manual)`;}
 
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps: <br>[] Alert to an emergencty <br>[] Accept rescue responsibility <br>[] Assess situation <br>[] Action a plan <br>[] Act on the rescue <br>[] Aftercare-tel. no. to report casualty's name, hospital sent to.(SLSS manual)`;}
@@ -22,11 +23,30 @@ else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().in
 
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
 [] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.(SLSS manual)`;}
+
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("deep water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("deep")>-1){document.getElementById("answer").innerHTML=`[] from the side; [] holding the neck and supporting the jaw;
 [] with buoyant aid, rest casualty's neck over elbow joint of the buoyant-aid-holding-arm;
 [] support the chin with the other hand.(SLSS manual)`;}
-else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("positioning")>-1){document.getElementById("answer").innerHTML=`reached point of safety e.g.pool's edge, shore: [] position casualty facing the bank. [] press both arms against casualty's armpits, firm grip on bank support [] one knee may be able to provide additional support. [] casualty head may rest on your shoulder keeping a clear airway.(SLSS manual)`;}
 
+else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("positioning")>-1){document.getElementById("answer").innerHTML=`reached point of safety e.g.pool's edge, shore: [] position casualty facing the bank. [] press both arms against casualty's armpits, firm grip on bank support [] one knee may be able to provide additional support. [] casualty head may rest on your shoulder keeping a clear airway.(SLSS manual)`;}
+//s3-rescue-landings
+else if(inputText.toLowerCase().indexOf("landing")>-1&&inputText.toLowerCase().indexOf("types")>-1){document.getElementById("answer").innerHTML=`Gentle slope @ shore, beach, shallow beach.<br>-walk out, assisting casualty.<br>-drag(pull ashore)<br>-shoulder carry<br>-pick-a-back carry<br>Steep slop @ river, dam, swimming pool, jetty<br>-stirrup lift<br>-assisted lift<br>-straight arm lift.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("landing")>-1&&inputText.toLowerCase().indexOf("walk out")>-1){document.getElementById("answer").innerHTML=`Gentle slope @ shore, beach, shallow beach.<br><b>-walk out,</b><br>slide your head under casualty's armpit, put one arm around casualty's waist;<br>walk beside casualty providing support. `;}
+
+else if(inputText.toLowerCase().indexOf("landing")>-1&&inputText.toLowerCase().indexOf("pull ashore")>-1){document.getElementById("answer").innerHTML=`Gentle slope @ shore, beach, shallow beach.<br><b>-drag (pull ashore),</b><br>float casualty as close as possible<br>walk backwards, supporting under the armpits keep mouth clear of water<br>resuscitation frequent intervals if necessary.`;}
+
+else if(inputText.toLowerCase().indexOf("assisted carry")>-1){document.getElementById("answer").innerHTML=`Gentle slope @ shore, beach, shallow beach.<br><b>assisted carry</b><br>rescuer one supports casualty under armpits<br>rescuer two support the legs and carry casualty ashore<br>lower casualty gently on the ground`;}
+
+else if(inputText.toLowerCase().indexOf("shoulder carry")>-1&&inputText.toLowerCase().indexOf("lift")>-1){document.getElementById("answer").innerHTML=`For gentle slope @ shore, beach, shallow beach.<br><b>shoulder carry</b><br>over long distance, shallow water, over debris or rough shoreline<br>for speedy safe exit and leaves one hand free<br><b>how</b>-at waist depth water, float casualty face up<br>grasp wrist of casualty's outer arm using your arm that's facing casualty's feet.<br>turn towards casualty's feet, lift grasped arm to roll casualty<br>slide free hand between casualty's legs grasp back of leg above the knee<br>submerge both shoulders beneath the surface<br>pull the grasped wrist down,<br>stand upright using legs, not the back, holding wrist and back of casualty legs while doing it.<br>transfer wrist to the hand holding back of the leg`;}
+
+else if(inputText.toLowerCase().indexOf("shoulder carry")>-1&&inputText.toLowerCase().indexOf("lower")>-1){document.getElementById("answer").innerHTML=`hold casualty's legs with an arm around thigh and grasp casualty's wrists with the other hand<br>kneel on knee nearer to casualty's head, keeping back straight doing it<br>sit casualty on your raised knee<br>transfer the back leg hand to around the waist<br>lower casualty to ground sitting position<br>take the wrist arm around your neck and lower the casualty to lying position from there`;}
+
+else if(inputText.toLowerCase().indexOf("pick a back carry")>-1&&inputText.toLowerCase().indexOf("lift")>-1){document.getElementById("answer").innerHTML=`stand in chest depth water<br>float casualty in front of you facing you<br>grasp casulty's left wrist with your left hand, right wrist with your right hand<br>turn sharply around under the far arm and pull casualty's chest onto your shoulders<br>wade ashore leaning forward from the hips, supporting casualty's weight across both shoulders`;}
+
+else if(inputText.toLowerCase().indexOf("pick a back carry")>-1&&inputText.toLowerCase().indexOf("lower")>-1){document.getElementById("answer").innerHTML=`kneel and lean foward slowly onto both elbows<br>lower casualty gently on the ground`;}
+
+else if(inputText.toLowerCase().indexOf("stirrup lift")>-1){document.getElementById("answer").innerHTML=`h `;}
 //s3-rescue***
 //s4-resuscitation*
 else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`

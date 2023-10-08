@@ -1,6 +1,6 @@
 
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: purple;
     color: white;
     padding: 8px;
     font-size: 16px;
@@ -10,7 +10,7 @@
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: gray;
   }
   
   #myInput {
@@ -53,6 +53,6 @@
   
   .show {display: block;}
   .body {
-    background-color: antiquewhite;
+    background-color: lightblue;
     color: black;
   }
