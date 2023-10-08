@@ -18,5 +18,8 @@ else if (elementId === 'contents') {
 }
 else if (elementId === 's3Rescue') {
     window.open(href="s3Rescue.html",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === 's3Lifesaving') {
+    window.open(href="s3Lifesaving.html",'chat AI','resizable,height=300,width=500');
 }    
 }

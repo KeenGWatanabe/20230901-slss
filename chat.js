@@ -19,7 +19,7 @@ else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().in
 
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps: <br>[] Alert to an emergencty <br>[] Accept rescue responsibility <br>[] Assess situation <br>[] Action a plan <br>[] Act on the rescue <br>[] Aftercare-tel. no. to report casualty's name, hospital sent to.(SLSS manual)`;}
 
-else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`<br>[]Talk <br>[]Reach <br>[]Throw <br>[]Wade <br>[]Row <br>[]Swim <br>[]Tow (non-contact > contact tow).(SLSS manual)`;}
+else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`<b>Talk</b> <br>Reach <br><b>Throw</b> <br>Wade <br>Row <br>Swim <br><b>Tow</b> (non-contact > contact tow).(SLSS manual)`;}
 
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
 [] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.(SLSS manual)`;}
@@ -80,7 +80,7 @@ else if(inputText.toLowerCase().indexOf("ventilation")>-1&&inputText.toLowerCase
 
 else if(inputText.toLowerCase().indexOf("ventilation")>-1&&inputText.toLowerCase().indexOf("mask")>-1||inputText.toLowerCase().indexOf("pocket")>-1&&inputText.toLowerCase().indexOf("mask")>-1){document.getElementById("answer").innerHTML=`EAR - Expired Air Resuscitation.<br><b>mouth-to-mask: take a breath, seal your mask over casualty's open mouth and nose by pressing both thumbs down on the mask and blow until chest starts to rise,<br>turn you head, look for vapour expired in the mask to check airflow and chest movemnent.<br>use of mask is recommended for prevention of infection, vomitting casualty. (SLSS manual)`;}
 
-else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("2 man")>-1||inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("two man")>-1){document.getElementById("answer").innerHTML=`one man does EAR, one does compression<br>fatigued compression rescuer calls for a switch on 5th cycle compression<br>"SWITC and 2 and 3 and 4 and 30", EAR rescuer gives last 2 blows then switch to Compression rescuer, Compression rescuer becomes EAR rescuer.(SLSS manual)`;}
+else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("2 man")>-1||inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("two man")>-1){document.getElementById("answer").innerHTML=`one man does EAR, one does compression<br>fatigued compression rescuer calls for a switch on 5th cycle compression<br>"SWITCH and 2 and 3 and 4 and 30", EAR rescuer gives last 2 blows then switch to Compression rescuer, Compression rescuer becomes EAR rescuer.(SLSS manual)`;}
 //s4-resuscitation***
 //s5-emergency care*
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.(SLSS manual)`;}
@@ -92,6 +92,17 @@ else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().index
 //s7-legal aspects*
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
 //s7-legal aspects***
+
+//s8-life saving syllabus*
+else if(inputText.toLowerCase().indexOf("ear")>-1&&/\bsupported\b/.test(inputText.toLowerCase())	||inputText.toLowerCase().indexOf("ear")>-1&&inputText.toLowerCase().indexOf("bank")>-1){document.getElementById("answer").innerHTML=`supported EAR (Expired Air Resuscitation)<br>5 m away, surface dive(feet first/head first), extended chin tow to wall supported position, EAR check breathing 10s > 2 blows > 1 thousand, 2 thousand, 3 thousand, 4 thousand, ONE (blow)...until say stop.`;}
+
+else if(inputText.toLowerCase().indexOf("ear")>-1&&inputText.toLowerCase().indexOf("unsupported")>-1||inputText.toLowerCase().indexOf("ear")>-1&&inputText.toLowerCase().indexOf("deep")>-1){document.getElementById("answer").innerHTML=`unsupported EAR (Expired Air Resuscitation)<br>surface dive(feet first/head first), extended chin tow to safe zone, EAR check breathing 10s > 2 blows > 1 thousand, 2 thousand, 3 thousand, 4 thousand, ONE (blow)...until say stop.`;}
+
+else if(inputText.toLowerCase().indexOf("ear")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`20m away tow until walking dept water, EAR check breathing 10s > 2 blows > 1 thousand, 2 thousand, 3 thousand, 4 thousand, ONE (blow)...until reach pool edge apply supported position continue EAR, until say stop`;}
+else if(inputText.toLowerCase().indexOf("lifesaving2")>-1&&inputText.toLowerCase().indexOf("items")>-1||inputText.toLowerCase().indexOf("lifesaving2")>-1){document.getElementById("answer").innerHTML=`rescue 25m deep water > block with aid > reverse > stand off > re-approach > non contact tow > stirrup lift > treatment for shock > RICE.SLSS manual`;}
+
+else if(inputText.toLowerCase().indexOf("lifesaving3")>-1&&inputText.toLowerCase().indexOf("items")>-1||inputText.toLowerCase().indexOf("lifesaving3")>-1){document.getElementById("answer").innerHTML=`throw/reach conscious first.  tow unconscious > assisted lift > check 10s > 2 blows-EAR > vomitting > secondary injury > recovery. SLSS manual`;}
+//s8-life saving syllabus***
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.SLSS manual`;}
 	
 //	document.getElementById("answer").innerHTML=`<a href="">mt</a>`;}
@@ -121,9 +132,9 @@ else if(inputText.toLowerCase().indexOf("schoo")>-1){
 else if(inputText.toLowerCase().indexOf("colonial")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'colonial' with: education, school, economy, master";
 }
-//"japanese" keyword prompt* 
-else if(inputText.toLowerCase().indexOf("japanese")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'japanese' with: economy, learn, business, assets, comfort women, torture, work, soldiers, kill";
+//"landings" keyword prompt* 
+else if(inputText.toLowerCase().indexOf("landing")>-1){
+	document.getElementById("answer").innerHTML=" try keyword 'landing' with: types, walk out, drag, shoulder carry, pick a back carry, stirrup, assisted lift, straight arm lift, use (lift and lower) with this methods ";
 }
 	 else {
 		answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
