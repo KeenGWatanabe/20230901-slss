@@ -30,13 +30,11 @@ else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().i
 //s3-rescue***
 //s4-resuscitation*
 else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`
-D-check for Danger;
-R-check for Response;
-S-Shout "call 995 ambulance and get AED from bystanders;
-A-head tilt chin lift check Airway;
-B-10sec check for Breathing;
-C-chest Compression;
-D-Defribrillator asap.(SLSS manual)`;}
+D-check for Danger;<br>R-check for Response;<br>S-Shout "call 995 ambulance and get AED from bystanders;<br>A-head tilt chin lift check Airway;<br>B-10sec check for Breathing;<br>C-chest Compression;<br>D-Defribrillator asap.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("danger")>-1&&inputText.toLowerCase().indexOf("check")>-1||inputText.toLowerCase().indexOf("danger")>-1&&inputText.toLowerCase().indexOf("what")>-1){document.getElementById("answer").innerHTML=`Lookout for dangerous situations, ensure rescuer safety.<br>Examples live wire, gas smell, objects on the ground or water that could injure both person.<br>What should rescuer do to clear danger,<br>whatever action, rescuer assess if can be done safely and within his capability<br>for test purpose, rescuer shout Clear before landing the casualty.`;}
+
+else if(inputText.toLowerCase().indexOf("response")>-1&&inputText.toLowerCase().indexOf("check")>-1||inputText.toLowerCase().indexOf("response")>-1&&inputText.toLowerCase().indexOf("what")>-1){document.getElementById("answer").innerHTML=`Tap casualty's houlders firmly and ask:"Hello! Hello! Are you OK?"<br>Ask loudly in a clear tone of voice<br>Tap firm, not too much force that cause injuries to casualty, e.g. casualty has cuts or wounds on shoulder already etc .(SLSS manual)`;}
 //s4-resuscitation***
 //s5-emergency care*
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.(SLSS manual)`;}
