@@ -9,7 +9,15 @@
 </head>
 <body  class="body">
     <h3 style="padding: 0px; font-family: arial;">Chat with Lifeguard<br/></h3>
-        <div>from Singapore Lifesaving Society's Manual</div><br/>
+        <a>from Singapore Lifesaving Society's Manual</a>
+        <div class="dropdown">
+          <button style="border-color:aliceblue;"onclick="dropdown1()">prompt</button>
+          <div class="dropdown-content" id="myDropdown1">
+            <input id="myInput1" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+            <a href="#" onclick="displayAnswer('s3Rescue')">section 3-Rescue keywords</a>
+            <a href="#" onclick="displayAnswer('s3Lifesaving')">section 3-Lifesaving keywords</a>
+            </div></div>
+        <br/>
 
     <input id="text_a" type="text;" size="50px;" />
     <p id="answer"></p>
@@ -22,8 +30,7 @@
           <a href="#" onclick="displayAnswer('vision')">vision</a>
           <a href="#" onclick="displayAnswer('values')">values</a>
           <a href="#" onclick="displayAnswer('contents')">contents</a>
-          <a href="#" onclick="displayAnswer('s3Rescue')">section 3-Rescue keywords</a>
-          <a href="#" onclick="displayAnswer('s3Lifesaving')">section 3-Lifesaving keywords</a>
+          
         </div>
       </div>
     </div>
@@ -32,6 +39,7 @@
     
     <script src="chat.js"></script>
     <script src="dropdown.js"></script>
+    <script src="dropdown1.js"></script>
     <script src="list.js"></script>
     
 </body>
