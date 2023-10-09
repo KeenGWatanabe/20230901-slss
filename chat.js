@@ -46,7 +46,7 @@ else if(inputText.toLowerCase().indexOf("pick a back carry")>-1&&inputText.toLow
 
 else if(inputText.toLowerCase().indexOf("pick a back carry")>-1&&inputText.toLowerCase().indexOf("lower")>-1){document.getElementById("answer").innerHTML=`kneel and lean foward slowly onto both elbows<br>lower casualty gently on the ground`;}
 
-else if(inputText.toLowerCase().indexOf("stirrup lift")>-1){document.getElementById("answer").innerHTML=`h `;}
+else if(inputText.toLowerCase().indexOf("stirrup lift")>-1){document.getElementById("answer").innerHTML=`move to side or behind casualty<br>in shallow water, cup hands agains one knee, OR<br>in deep water, cup one hand, other hand firm grip on the bank<br>casualty instructed to place one foot in the stirrup hand and leave the water `;}
 //s3-rescue***
 //s4-resuscitation*
 else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`
