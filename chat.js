@@ -30,6 +30,21 @@ else if(inputText.toLowerCase().indexOf("clothing tow")>-1){document.getElementB
 
 else if(inputText.toLowerCase().indexOf("wrist tow")>-1){document.getElementById("answer").innerHTML=`calm cooperative casualty;<br>grasp back of casualty's wrist;<br>side stroke scissors kick;<br>encourage casualty to stroke with free arm and kick if possible<br>maintain observation of casualty.(SLSS manual)`;}
 
+else if(inputText.toLowerCase().indexOf("chin tow")>-1){document.getElementById("answer").innerHTML=`necessaary to maintain firm, close control of casualty;<br>approach from behind, place one hand on casualty chin;<br>rest casualty's head on your shoulder on towing arm side;<br>survival kick, egg beater kick.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("double shoulder tow")>-1){document.getElementById("answer").innerHTML=`necessaary to maintain greater control, elevate casualty head over rough water;<br>approach from behind, hook both hands under the armpits and grasp the shoulders;<br>survival kick, egg beater kick.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("cross chest tow")>-1){document.getElementById("answer").innerHTML=`over rough water;<br>approach from behind, cross an arm over the chest of casualty;<br>grip under the armpit clamp elbow to casualty's chest;<br>sidestroke scissors kick.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("support tow")>-1){document.getElementById("answer").innerHTML=`with buoyant aid for unconscious non-breathing casualty;<br>hold board with one hand, chin tow casualty;<br>every 3 sec, EAR blow to the nose(rest head on board elbow, chin hand press thumb to seal the mouth).CHECK THIS .(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("head tow")>-1){document.getElementById("answer").innerHTML=`firm stabilize head hold necessary;<br>palm inwards place firmly both side of casualty's head;<br>survial kick or egg beater kick.(SLSS manual)`;}
+
+
+else if(inputText.toLowerCase().indexOf("vice grip tow")>-1){document.getElementById("answer").innerHTML=`for suspected spinal injury;<br>approach from side;<br>place one forearm along spine with hand cupping back of casualty's head;<br>other forearm on casualty's sternum supporting jaw;<br>lock both writs and squeeze the forearms together to create a vice, immobilises casualty's body with an upward downward pressure;<br>for casualty face down in water, vice grip first then rotate person to face up; move carefully minimise motion altering casualty's hips and legs.(SLSS manual)`;}
+//s3-rescue-tow***
+//s3-rescue-defense*
+//s3-rescue-defense***
 //s3-rescue-support
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
 [] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.(SLSS manual)`;}
