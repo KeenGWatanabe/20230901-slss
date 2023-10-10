@@ -28,4 +28,7 @@ else if (elementId === 's8Rescue') {
 else if (elementId === 's8Resuscitation') {
     window.open(href="s8Resuscitation.html",'chat AI','resizable,height=300,width=500');
 }    
+else if (elementId === 's3Tow') {
+    window.open(href="s3Tow.html",'chat AI','resizable,height=300,width=500');
+}
 }

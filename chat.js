@@ -14,13 +14,23 @@ function lky() {
     else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: <br>[]colds, <br>[]influenza, <br>[]measles and mumps, <br>[]glandular fever, <br>[]Hepatitis A or B, <br>[]AIDS, <br>[]SARS, <br>[]Herpes, <br>[]Tuberculosis, <br>[]some forms of meningitis, <br>[]some skin infections.-SLSS manual`;}
 //s2-hygiene***
 //s3-rescue*
-//s3-rescue-support
+//s3-rescue
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1&&inputText.toLowerCase().indexOf("rlss")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("rlss")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps:<br> [] Awareness - recognise emergency & accept responsibility <br>[] Assess situation and make informed judgement <br>[] Action a plan & act on the rescue <br>[] Aftercare - give aid until medical help arrive.(RLSS manual)`;}
 
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps: <br>[] Alert to an emergencty <br>[] Accept rescue responsibility <br>[] Assess situation <br>[] Action a plan <br>[] Act on the rescue <br>[] Aftercare-tel. no. to report casualty's name, hospital sent to.(SLSS manual)`;}
 
-else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`<b>Talk</b> <br>Reach <br><b>Throw</b> <br>Wade <br>Row <br>Swim <br><b>Tow</b> (non-contact > contact tow).(SLSS manual)`;}
 
+else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`<b>Talk</b> <br>Reach <br><b>Throw</b> <br>Wade <br>Row <br>Swim <br><b>Tow</b> (non-contact > contact tow).(SLSS manual)`;}
+//s3-rescue-tow
+else if(inputText.toLowerCase().indexOf("non contact")>-1&&inputText.toLowerCase().indexOf("rescue")>-1||inputText.toLowerCase().indexOf("accompanied")>-1&&inputText.toLowerCase().indexOf("rescue")>-1){document.getElementById("answer").innerHTML=`swim out with a buoyant aid, accompany casualty to safety without direct contact.<br>approach reassure the casualty;<br>keeping safe distance at defensive position;<br>ask casualty to grasp aid firmly, kick to move;<br>providing reassurance throughout(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("extended tow")>-1){document.getElementById("answer").innerHTML=`calm cooperative casualty;<br>hold casualty's chin, elbows locked straight;<br>side-stroke scissors kick;<br>maintain observation of casualty.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("clothing tow")>-1){document.getElementById("answer").innerHTML=`calm cooperative clothed casualty;<br>hold casualty cloths below collar to avoid choking neck, arms relax avoid jerking motion;<br>egg beater kick or survival kick;<br>encourage casualty to scull with free arm and kick if possible<br>maintain observation of casualty.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("wrist tow")>-1){document.getElementById("answer").innerHTML=`calm cooperative casualty;<br>grasp back of casualty's wrist;<br>side stroke scissors kick;<br>encourage casualty to stroke with free arm and kick if possible<br>maintain observation of casualty.(SLSS manual)`;}
+
+//s3-rescue-support
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
 [] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.(SLSS manual)`;}
 
