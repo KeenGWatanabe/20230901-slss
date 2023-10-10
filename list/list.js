@@ -14,21 +14,21 @@ function displayAnswer(elementId) {
     alert(`to be a leading lifesaving organisation in the world`);
 }
 else if (elementId === 'contents') {
-    window.open(href="contents.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 's3Rescue') {
-    window.open(href="s3Rescue.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/s3Rescue.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 's4Resuscitation') {
-    window.open(href="s4Resuscitation.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/s4Resuscitation.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 's8Rescue') {
-    window.open(href="s8Rescue.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/s8Rescue.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 's8Resuscitation') {
-    window.open(href="s8Resuscitation.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/s8Resuscitation.html",'chat AI','resizable,height=300,width=500');
 }    
 else if (elementId === 's3Tow') {
-    window.open(href="s3Tow.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/s3Tow.html",'chat AI','resizable,height=300,width=500');
 }
 }
