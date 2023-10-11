@@ -50,6 +50,16 @@ else if(inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().ind
 
 else if(inputText.toLowerCase().indexOf("reverse")>-1&&inputText.toLowerCase().indexOf("when")>-1||inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("reverse")>-1){document.getElementById("answer").innerHTML=`Use it when casualty attempts to grasp you;<br>tuck legs rapidly under body and push them forward,<br>kick vigorously away & re-adopt defensive position.(SLSS manual)`;}
 
+else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("when")>-1||inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("block")>-1){document.getElementById("answer").innerHTML=`Use it when casualty lunges at you;<br>raise arm or leg or aid to block him,<br>push agains casualty's chest area<br>swim away or submerge if necessary<br><b>use strong direct push against a large target area (chest) with speed and vigour</b>.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("aid")>-1||inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("kickboard")>-1){document.getElementById("answer").innerHTML=`Use it when casualty lunges at you;<br>raise the kickboard to block him,<br>likely casualty will grasp kickboard first<br>move away and adopt defensive position asap.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("arm")>-1||inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("hand")>-1){document.getElementById("answer").innerHTML=`Use it when casualty lunges at you;<br><b>single arm</b> extended forward vigorously at casualty's upper chest &<br>lifesaver <b>submerges</b> and move away underwater, OR<br>if lifesaver <b>head above water</b> without submerging, the arm thrust combined with reverse kick away.<br>P.S. same application if using <b>two arm thrust.</b>(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("leg")>-1||inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("tuck")>-1){document.getElementById("answer").innerHTML=`Use it when casualty lunges at you;<br>adopt a <b>tuck position</b> place one foot against casualty's upper chest & extend leg to push (not kick) him away.<br>P.S. intial practice against poolside, then introduce partner, train for accuracy foot placement starting slow before building up speed.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("principles")>-1||inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("technique")>-1){document.getElementById("answer").innerHTML=`.(SLSS manual)`;}
+
 //s3-rescue-defense***
 //s3-rescue-support
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
