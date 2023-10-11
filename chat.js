@@ -58,10 +58,12 @@ else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().ind
 
 else if(inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("leg")>-1||inputText.toLowerCase().indexOf("block")>-1&&inputText.toLowerCase().indexOf("tuck")>-1){document.getElementById("answer").innerHTML=`Use it when casualty lunges at you;<br>adopt a <b>tuck position</b> place one foot against casualty's upper chest & extend leg to push (not kick) him away.<br>P.S. intial practice against poolside, then introduce partner, train for accuracy foot placement starting slow before building up speed.(Reference from SLSS manual)`;}
 
-else if(inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("principles")>-1||inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("technique")>-1){document.getElementById("answer").innerHTML=`.(Reference from SLSS manual)`;}
+else if(inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("principles")>-1||inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().indexOf("technique")>-1){document.getElementById("answer").innerHTML=`Happens when lifesaver error, before rescuer can react.<br>No escape technique is effective in all cases,<br>"effectiveness of escape is more important" than the mechanics of technique.<br>Escape from <b>wrist grasp, front grasp, rear grasp, leg grasp</b><br>key points=> direct force against large target, speed and vigour. <br>(Reference from SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("wrist")>-1&&inputText.toLowerCase().indexOf("grasp")>-1||inputText.toLowerCase().indexOf("wrist")>-1&&inputText.toLowerCase().indexOf("grab")>-1){document.getElementById("answer").innerHTML=`casualty grab your wrist:<br>clench fist of your grasped hand,<br>hold clench fist with other hand,<br>pull the fist upwards (against direction of casualty's thumb)<br>swim out of reach adopt defensive position.<br>(Reference from SLSS manual)`;}
 
 //s3-rescue-defense***
-//s3-rescue-support
+//s3-rescue-support*
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
 [] both hands under armpits from behind casualty [] elevate a conscious casualty shoulder level water to help calm him.(Reference from SLSS manual)`;}
 
@@ -70,6 +72,7 @@ else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().i
 [] support the chin with the other hand.(Reference from SLSS manual)`;}
 
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("positioning")>-1){document.getElementById("answer").innerHTML=`reached point of safety e.g.pool's edge, shore: [] position casualty facing the bank. [] press both arms against casualty's armpits, firm grip on bank support [] one knee may be able to provide additional support. [] casualty head may rest on your shoulder keeping a clear airway.(Reference from SLSS manual)`;}
+//s3-rescue-support***
 //s3-rescue-landings
 else if(inputText.toLowerCase().indexOf("landing")>-1&&inputText.toLowerCase().indexOf("types")>-1){document.getElementById("answer").innerHTML=`Gentle slope @ shore, beach, shallow beach.<br>-walk out, assisting casualty.<br>-drag(pull ashore)<br>-shoulder carry<br>-pick-a-back carry<br>Steep slop @ river, dam, swimming pool, jetty<br>-stirrup lift<br>-assisted lift<br>-straight arm lift.(Reference from SLSS manual)`;}
 
@@ -94,7 +97,7 @@ else if(inputText.toLowerCase().indexOf("assisted lift")>-1&&inputText.toLowerCa
 else if(inputText.toLowerCase().indexOf("assisted lift")>-1&&inputText.toLowerCase().indexOf("2")>-1||inputText.toLowerCase().indexOf("assisted lift")>-1&&inputText.toLowerCase().indexOf("two")>-1){document.getElementById("answer").innerHTML=`<b>perform by 2,3</b> or 4 people;<br>lifesave control and organise the lift;<br>casualty face bank;<br>rescuer to bystander:"hold both casualty's hands", lifesaver get out the water;<br>lifesaver to bystander:"hold one hand"<br>rescuer hold other hand turn casualty face the water, back against bank;<br>both lift casualty and sit at edge, pull until legs straighten on bank;<br>coordinate the lift and lower in a safe place.<br><b>for 2 man lift,</b> lifter grab casualty's wrists beneath folded arms;<br>from squating position, body against casualty's back for spinal support; balance standing up`;}
 
 else if(inputText.toLowerCase().indexOf("assisted lift")>-1&&inputText.toLowerCase().indexOf("un")>-1||inputText.toLowerCase().indexOf("unassisted lift")>-1&&inputText.toLowerCase().indexOf("one")>-1){document.getElementById("answer").innerHTML=`Not recommended by SLSS;<br>unless highly trained strong lifesaver;<br>just secure casualty in safe position, in support position; wait for assistance`;}
-
+//s3-rescue-landings***
 //s3-rescue***
 //s4-resuscitation*
 else if(inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("resusci")>-1||inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("reviv")>-1){document.getElementById("answer").innerHTML=`
