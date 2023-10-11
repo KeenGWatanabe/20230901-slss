@@ -18,7 +18,7 @@ else if (elementId === 'contents') {
     window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 'disclaimer') {
-    alert(`This content is designed for trainee and trained lifesaver's references only.  Context of saving methodology is subject to skills and experiences interpretation, quotes here are by no means comprehensive enough to be used alone. (Web Developer)`);
+    alert(`This content is created for trainee and trained lifesaver's references only.  Context of saving methodology is subject to skills and experiences interpretation, quotes here are by no means comprehensive enough to be used alone. (Web Developer)`);
 }
 else if (elementId === 's3Rescue') {
     window.open(href="list/s3Rescue.html",'chat AI','resizable,height=300,width=500');
