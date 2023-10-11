@@ -62,6 +62,10 @@ else if(inputText.toLowerCase().indexOf("escape")>-1&&inputText.toLowerCase().in
 
 else if(inputText.toLowerCase().indexOf("wrist")>-1&&inputText.toLowerCase().indexOf("grasp")>-1||inputText.toLowerCase().indexOf("wrist")>-1&&inputText.toLowerCase().indexOf("grab")>-1){document.getElementById("answer").innerHTML=`casualty grab your wrist:<br>clench fist of your grasped hand,<br>hold clench fist with other hand,<br>pull the fist upwards (against direction of casualty's thumb)<br>swim out of reach adopt defensive position.<br>(Reference from SLSS manual)`;}
 
+else if(inputText.toLowerCase().indexOf("front")>-1&&inputText.toLowerCase().indexOf("grasp")>-1||inputText.toLowerCase().indexOf("front")>-1&&inputText.toLowerCase().indexOf("grab")>-1){document.getElementById("answer").innerHTML=`casualty grab your head, shoulders, or neck<br>Take deep breath, tuck chin to the chest(protect throat);<br>round your back, extend arms against the chest, armpits, waist or hips.<br>if possible, press against casualty's rib cage;<br>duck underwater vigorously away & defensive position.<br>(Reference from SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("rear")>-1&&inputText.toLowerCase().indexOf("grasp")>-1||inputText.toLowerCase().indexOf("rear")>-1&&inputText.toLowerCase().indexOf("grab")>-1){document.getElementById("answer").innerHTML=`casualty grab from behind<br>Take deep breath, tuck chin to the chest(protect throat);<br><b>method 1</b>grasp casualty's elbows push up rapid vigorously<br>duck underwater vigorously away & defensive position.<br><b>method 2</b>casualty grasp your arms or waist, use free hand to exert pressure on casualty's finger or thumb,<br>push your elbows outwards, force casualty's arms wide,<br>escape & defensive position.<br>(Reference from SLSS manual)`;}
+
 //s3-rescue-defense***
 //s3-rescue-support*
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
