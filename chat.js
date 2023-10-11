@@ -44,6 +44,12 @@ else if(inputText.toLowerCase().indexOf("head tow")>-1){document.getElementById(
 else if(inputText.toLowerCase().indexOf("vice grip tow")>-1){document.getElementById("answer").innerHTML=`for suspected spinal injury;<br>approach from side;<br>place one forearm along spine with hand cupping back of casualty's head;<br>other forearm on casualty's sternum supporting jaw;<br>lock both writs and squeeze the forearms together to create a vice, immobilises casualty's body with an upward downward pressure;<br>for casualty face down in water, vice grip first then rotate person to face up; move carefully minimise motion altering casualty's hips and legs.(SLSS manual)`;}
 //s3-rescue-tow***
 //s3-rescue-defense*
+else if(inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("purpose")>-1||inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("why")>-1){document.getElementById("answer").innerHTML=`Use it to avoid being grasped by being in a position that is out-of-reach;<br>ward off sudden grasp from casualty;<br>Use variations of the proven techniques as appropriate.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("ready")>-1&&inputText.toLowerCase().indexOf("position")>-1||inputText.toLowerCase().indexOf("stand")>-1&&inputText.toLowerCase().indexOf("off")>-1){document.getElementById("answer").innerHTML=`<b>When</b>-approaching conscious casualty, to make final assessment from a safe position.<br><b>How</b><br>at safe distance(out of reach)<br>tuck legs rapidly under body, learn backwards 45°, arms sculling & extend one leg in front,<br>eyes towards casualty observing.(SLSS manual)`;}
+
+else if(inputText.toLowerCase().indexOf("reverse")>-1&&inputText.toLowerCase().indexOf("when")>-1||inputText.toLowerCase().indexOf("defen")>-1&&inputText.toLowerCase().indexOf("reverse")>-1){document.getElementById("answer").innerHTML=`Use it when casualty attempts to grasp you;<br>tuck legs rapidly under body and push them forward,<br>kick vigorously away & re-adopt defensive position.(SLSS manual)`;}
+
 //s3-rescue-defense***
 //s3-rescue-support
 else if(inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow water")>-1||inputText.toLowerCase().indexOf("support")>-1&&inputText.toLowerCase().indexOf("shallow")>-1){document.getElementById("answer").innerHTML=`[] holding one arm under the small of back/the neck of the casualty; OR
