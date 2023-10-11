@@ -6,21 +6,30 @@ const inputElement = document.getElementById("text_a");
 function lky() {
 	//const inputText = document.getElementById("text_a").value.trim();
 	const inputText = inputElement.value;
-  	if(inputText === "") {
-	document.getElementById("answer").innerHTML="Your input is blank";      
-	}else if(inputText.toLowerCase().indexOf("thank you")>-1){
-			document.getElementById("answer").innerHTML="You are welcome.不用客气。";
-	}//s2-hygiene*
-    else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: <br>[]colds, <br>[]influenza, <br>[]measles and mumps, <br>[]glandular fever, <br>[]Hepatitis A or B, <br>[]AIDS, <br>[]SARS, <br>[]Herpes, <br>[]Tuberculosis, <br>[]some forms of meningitis, <br>[]some skin infections.-Reference from SLSS manual`;}
+  	if(inputText === "") { 
+	document.getElementById("answer").innerHTML="Your input is blank";}
+else if(inputText.toLowerCase().indexOf("thank you")>-1){
+			document.getElementById("answer").innerHTML="You are welcome.不用客气。";}
+
+//s1-lifesaving*
+else if(inputText.toLowerCase().indexOf("lifesaving")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("lifesaving")>-1&&inputText.toLowerCase().indexOf("defin")>-1){
+	document.getElementById("answer").innerHTML=`Generally define as the saving of human life, through the prevention of drowning.  Thus, it involves rescue operations in and around water, as well as drowning prevention methodology.<br><a href="https://www.merriam-webster.com/dictionary/lifesaving" target="_blank">merriam-webster on lifesaving</a><br><a href="https://www.cdc.gov/drowning/facts/index.html#:~:text=What%20is%20drowning%3F,person%20survives%20a%20drowning%20incident." target="_blank">CDC on drowning</a>`;}
+else if(inputText.toLowerCase().indexOf("slss")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("slss")>-1&&inputText.toLowerCase().indexOf("why")>-1||inputText.toLowerCase().indexOf("lifesaving society")>-1&&inputText.toLowerCase().indexOf("what")>-1){
+		document.getElementById("answer").innerHTML=`The acronym SLSS stands for Singapore Lifesaving Society, is a non-profit organisation, affiliated with Royal Life Saving Society (RLSS). The syllabus of your lifesaving awards originated from RLSS with adaptation for regional environment where suitable. <br><a href="https://www.slss.org.sg/" target="_blank">SLSS website</a><br><a href="https://www.rlss.org.uk/" target="_blank">RLSS website</a>`;}	
+//s1-lifesaving***
+//s1-drowning*
+
+//s2-hygiene*
+else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: <br>[]colds, <br>[]influenza, <br>[]measles and mumps, <br>[]glandular fever, <br>[]Hepatitis A or B, <br>[]AIDS, <br>[]SARS, <br>[]Herpes, <br>[]Tuberculosis, <br>[]some forms of meningitis, <br>[]some skin infections.-Reference from SLSS manual`;}
 //s2-hygiene***
 //s3-rescue*
 //s3-rescue
-else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1&&inputText.toLowerCase().indexOf("rlss")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("rlss")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps:<br> [] Awareness - recognise emergency & accept responsibility <br>[] Assess situation and make informed judgement <br>[] Action a plan & act on the rescue <br>[] Aftercare - give aid until medical help arrive.(RLSS manual)`;}
+else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("drown")>-1&&inputText.toLowerCase().indexOf("how")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1&&inputText.toLowerCase().indexOf("drown")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps:<br> [] Awareness - recognise emergency & accept responsibility <br>[] Assess situation and make informed judgement <br>[] Action a plan & act on the rescue <br>[] Aftercare - give aid until medical help arrive.(RLSS manual reference)`;}
 
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("principle")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1){document.getElementById("answer").innerHTML=`Sequence of a lifesaver's rescue steps: <br>[] Alert to an emergencty <br>[] Accept rescue responsibility <br>[] Assess situation <br>[] Action a plan <br>[] Act on the rescue <br>[] Aftercare-tel. no. to report casualty's name, hospital sent to.(Reference from SLSS manual)`;}
 
 
-else if(inputText.toLowerCase().indexOf("action")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`<b>Talk</b> <br>Reach <br><b>Throw</b> <br>Wade <br>Row <br>Swim <br><b>Tow</b> (non-contact > contact tow).(Reference from SLSS manual)`;}
+else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`Also known as "rescue ladder", these are the sequence of rescue to adopt, from the safest for rescuer to risks levels dependent on the rescuer's skill level and competency<br><b>Talk<br>Reach <br>Throw<br>Wade<br>Row<br>Swim <br>Tow </b>(non-contact => contact tow)<br>.(Reference from SLSS manual)`;}
 //s3-rescue-tow
 else if(inputText.toLowerCase().indexOf("non contact")>-1&&inputText.toLowerCase().indexOf("rescue")>-1||inputText.toLowerCase().indexOf("accompanied")>-1&&inputText.toLowerCase().indexOf("rescue")>-1){document.getElementById("answer").innerHTML=`swim out with a buoyant aid, accompany casualty to safety without direct contact.<br>approach reassure the casualty;<br>keeping safe distance at defensive position;<br>ask casualty to grasp aid firmly, kick to move;<br>providing reassurance throughout(Reference from SLSS manual)`;}
 
@@ -164,7 +173,7 @@ else if(inputText.toLowerCase().indexOf("lifesaving3")>-1&&inputText.toLowerCase
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.Reference from SLSS manual`;}
 	
 //	document.getElementById("answer").innerHTML=`<a href="">mt</a>`;}
-//else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML=`Memoirs of LKY,1998`;}
+//else if(/\bx\b/.test(inputText.toLowerCase())&&inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML=``;}
 	
 //else if(inputText.toLowerCase().indexOf("xxx")>-1){
 //		document.getElementById("answer").innerHTML=`<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>`; 	
