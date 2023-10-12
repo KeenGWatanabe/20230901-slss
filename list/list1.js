@@ -33,7 +33,14 @@ function displayAnswer(elementId) {
     alert(`for suspected spinal injury;  approach from side;  place one forearm along spine with hand cupping back of casualty's head;  other forearm on casualty's sternum supporting jaw;  lock both writs and squeeze the forearms together to create a vice, immobilises casualty's body with an upward downward pressure;  for casualty face down in water, vice grip first then rotate person to face up;   move carefully minimise motion altering casualty's hips and legs.(Reference from SLSS manual)`);  
 
 } else if (elementId === 'rescue principles') {
-    alert(`Sequence of a lifesaver's rescue steps to be considered a rescue in its entirety: ;  [] Alert to an emergencty ;  [] Accept rescue responsibility ;  [] Assess situation ;  [] Action a plan ;  [] Act on the rescue ;  [] Aftercare-tel. no. to report casualty's name, hospital sent to.(Reference from SLSS manual)`);  
+    alert(`Sequence of a lifesaver's rescue steps to be considered a rescue in its entirety: ;  
+    [] Alert to an emergencty ;  
+    [] Accept rescue responsibility ;  
+    [] Assess situation ;  
+    [] Action a plan ;  
+    [] Act on the rescue ;  
+    [] Aftercare-tel. no. to report casualty's name, hospital sent to.(Reference from SLSS manual)`);  
+
 } else if (elementId === 'rescue steps') {
     alert(`Also known as "rescue ladder", these are the sequence of rescue to adopt, from the safest for rescuer to risks levels dependent on the rescuer's skill level and competency;  <b>Talk;  Reach ;  Throw;  Wade;  Row;  Swim ;  Tow </b>(non-contact => contact tow);  .(Reference from SLSS manual).(Reference from SLSS manual)`);  
 } else if (elementId === 'rescue plan') {
@@ -57,9 +64,6 @@ function displayAnswer(elementId) {
 } else if (elementId === 'support position') {
     alert(`reached point of safety e.g.pool's edge, shore: [] position casualty facing the bank. [] press both arms against casualty's armpits, firm grip on bank support [] one knee may be able to provide additional support. [] casualty head may rest on your shoulder keeping a clear airway.(Reference from SLSS manual)`);  
 
-} else if (elementId === 'landing - types') {
-    alert(`Gentle slope @ shore, beach, shallow beach.  -walk out, assisting casualty.  -drag(pull ashore)  -shoulder carry  -pick-a-back carry  Steep slop @ river, dam, swimming pool, jetty  -stirrup lift  -assisted lift  -straight arm lift.(Reference from SLSS manual)`);  
-
 } else if (elementId === 'landing - walk out') {
     alert(`Gentle slope @ shore, beach, shallow beach.  <b>-walk out,</b>  slide your head under casualty's armpit, put one arm around casualty's waist;  walk beside casualty providing support.`);  
 
@@ -82,6 +86,7 @@ function displayAnswer(elementId) {
 
 } else if (elementId === 'assisted lift-2 man') {
     alert(`<b>perform by 2</b> people;  lifesave control and organise the lift;  casualty face bank;  rescuer to bystander:"hold both casualty's hands", lifesaver get out the water;  lifesaver to bystander:"hold one hand"  rescuer hold other hand turn casualty face the water, back against bank;  both lift casualty and sit at edge, pull until legs straighten on bank;  coordinate the lift and lower in a safe place.  <b>for 2 man lift,</b> lifter grab casualty's wrists beneath folded arms;  from squating position, body against casualty's back for spinal support; balance standing up`);  
+
 } else if (elementId === 'assisted lift-3 man') {
     alert(`<b>perform by 3</b> people;  lifesave control and organise the lift;  casualty face bank;  rescuer to bystander:"hold both casualty's hands", lifesaver get out the water;  lifesaver to bystander:"hold one hand"  rescuer hold other hand turn casualty face the water, back against bank;  both lift casualty and sit at edge;  ask 2nd bystander to carry casualty's legs  coordinate the lift and lower in a safe place.  <b>for 3 man lift,</b> both lifter slide elbow under casualty's each armpit, grasp the wrist;  free hand clasp wrist holding arm or balance support standing up`);
 }}
