@@ -1,4 +1,8 @@
+
 function displayAnswer(elementId) {
+
+//s3Tow.html*    
+
     if (elementId === 'accompanied rescue') {
     alert(`Accompanied Rescue:
     -swim out with a buoyant aid and accompany casualty to -safety without direct contact. 
@@ -94,6 +98,9 @@ function displayAnswer(elementId) {
     -for casualty face down in water, vice grip first then rotate person to face up;   
     -move carefully minimise motion altering casualty's hips and legs.
     (Reference from SLSS manual)`);  
+
+//s3Tow.html***
+//s3Rescue.html*
 
 } else if (elementId === 'rescue principles') {
     alert(`Sequence of a lifesaver's rescue steps to be considered a rescue in its entirety: ;  
@@ -197,4 +204,144 @@ function displayAnswer(elementId) {
 
 } else if (elementId === 'assisted lift-3 man') {
     alert(`<b>perform by 3</b> people;  lifesave control and organise the lift;  casualty face bank;  rescuer to bystander:"hold both casualty's hands", lifesaver get out the water;  lifesaver to bystander:"hold one hand"  rescuer hold other hand turn casualty face the water, back against bank;  both lift casualty and sit at edge;  ask 2nd bystander to carry casualty's legs  coordinate the lift and lower in a safe place.  <b>for 3 man lift,</b> both lifter slide elbow under casualty's each armpit, grasp the wrist;  free hand clasp wrist holding arm or balance support standing up`);
+//s3Rescue.html***
+//s4Resuscitation.html*
+
+} else if (elementId === 'resuscitation steps') {
+    alert(`D-check for Danger;
+    R-check for Response;
+    S-Shout "call 995 ambulance and get AED from bystanders;
+    A-head tilt chin lift check Airway;
+    B-10sec check for Breathing;
+    C-chest Compression;
+    D-Defribrillator asap.(References from SLSS manual)`);
+
+} else if (elementId === 'check danger') {
+    alert(`Lookout for dangerous situations, ensure rescuer safety.
+    Danger - examples live wire, gas smell, objects on the ground or water that could injure both person.
+    What should rescuer do to clear danger,
+    whatever action, rescuer assess if can be done safely and within his capability
+    for test purpose, rescuer shout Clear before landing the casualty.
+    
+    (References from SLSS manual)`);
+
+} else if (elementId === 'check response') {
+    alert(`Tap casualty's shoulders firmly and ask:
+    "Hello! Hello! Are you OK?"
+    Ask loudly in a clear tone of voice
+    Tap firm, not too much force that cause injuries to casualty,
+    Note: e.g.casualty has cuts or wounds on shoulder already.
+    For suspected spinal injury, do not tap or shake victim unnecessarily, instead lightly squeeze the shoulder to check for response.(References from SLSS manual)`);
+
+} else if (elementId === 'shout help') {
+    alert(`"Call 995 for ambulance"(to first person)
+    "Get an AED back to me"(to second person)
+    Note: rescuer point to person, say out clear instructions.
+    If rescuer is alone, only get AED if its visible and nearby.(References from SLSS manual)`);
+
+} else if (elementId === 'clear airway') {
+    alert(`Head tilt (5 fingers) chin lift (2 fingers)
+    Kneel to one side of casualty with one hand high on casualty's forehead
+    Apply other hand with 2 fingers(with index and middle finger) at the chin/jaw.
+    Keep all fingers clear of the soft tissues of the casualty's neck and throat.
+    tilt casualty's head back with one hand and support the chin with the other.
+    Note: The tongue is the most common cause of blockage of the airway, this maneuvour is to keep tongue well clear of the airway.
+    Look for foreign object in the mouth, remove such object if seen. Dentures should be remove if they are loose.(References from SLSS manual)`);
+
+} else if (elementId === 'check breathing') {
+    alert(`Maintain head tilt chin lift position,
+    Place one ear near casualty's mouth to listen and feel for air
+    Look for rise and fall of chest for 10 seconds.
+    Count loudly-One thousand, Two thousand till Ten thousand.
+    Breathing present-place casualty in recovery position to ensure adequate airway and drainage of vomit.
+    Monitor breathing until medical help arrives.
+    Criteria of breathing, chest movement, air entering and leaving mouth/nostrils
+    non-breathing-gasping for air is where chest movement present, but no air leaving (agonal breathing)(References from SLSS manual)`);
+
+} else if (elementId === 'how compression') {
+    alert(`Place heel of hand(hand nearer victim's head) onto sternum.
+    place heel of other hand over the sternum positioned hand by finger-holding method.
+    30 chest compressions and 2 ventilations:
+    1 and 2 and 3 and 4 and 5
+    1 and 2 and 3 and 4 and 10
+    1 and 2 and 3 and 4 and 15
+    1 and 2 and 3 and 4 and 20
+    1 and 2 and 3 and 4 and 25
+    1 and 2 and 3 and 4 and 30
+    timing:(push down as you say "number", release as you say "and")
+    depth:(compression depth between 4-5cm)
+    rate:(100-120 press per minute)(References from SLSS manual)`);
+
+} else if (elementId === 'compression child') {
+    alert(`1 - 8years old;
+    use only one hand compressions;
+    compression depth 2.5-4cm;
+    compression rate: 100 per minute same as infants. (References from SLSS manual)`);
+
+} else if (elementId === 'compression infant') {
+    alert(`below 1 years
+    compression point 1 finger below nipple line
+    compress with 2/3 fingers on sternum
+    compression depth: 1.5-2.5cm
+    compression rate: 100 per min;
+    blow into nose and mouth (References from SLSS manual)`);
+
+} else if (elementId === 'resuscitation types') {
+    alert(`mouth-to-mouth
+    mouth-to-nose
+    mouth-to-mouth & nose(on infants)
+    mouth-to-mask.(References from SLSS manual)`);
+
+} else if (elementId === 'ventilation how') {
+    alert(`EAR - Expired Air Resuscitation.
+    mouth-to-mouth:
+    take a breath, seal your mouth over casualty's open mouth
+    pinch the nose and blow until chest starts to rise,
+    turn you head, unpinch the nose,
+    one ear close to casualty's mouth and nose to check airflow and chest movemnent.(References from SLSS manual)`);
+
+} else if (elementId === 'ventilation nose') {
+    alert(`EAR - Expired Air Resuscitation.
+    mouth-to-nose: take a breath, seal your mouth over casualty's nose and your thumb closes the mouth and blow until chest starts to rise,
+    turn you head, one ear close to casualty's mouth, thumb release from mouth to check correct check airflow and chest movemnent.
+    When use
+    *rescuer's preference,
+    *water resuscitation,
+    *when jaw is clenched,
+    *by child on adult,
+    *mouth-to-mouth cannot be use, e.g. wounds at the mouth.(References from SLSS manual)`);
+
+} else if (elementId === 'ventilation child') {
+    alert(`EAR - Expired Air Resuscitation.
+    mouth-to-mouth: take a breath, seal your mouth over casualty's open mouth by pinching the nose and blow until chest starts to rise,
+    turn you head, unpinch the nose, one ear close to casualty's mouth and nose to check airflow and chest movemnent. Blow a smaller volume of air as required. (References from SLSS manual)`);
+
+} else if (elementId === 'ventilation infant') {
+    alert(`EAR - Expired Air Resuscitation.
+    mouth-to-nose and mouth: take a breath, seal your mouth over infant's open mouth and nose and blow until chest starts to rise,
+    turn you head, one ear close to infant's mouth and nose to check airflow and chest movemnent. Blow a smaller volume of air as required. Over-extension of the head should be avoided for infants.(References from SLSS manual)`);
+
+} else if (elementId === 'ventilation mask') {
+    alert(`EAR - Expired Air Resuscitation.
+    mouth-to-mask: take a breath, seal your mask over casualty's open mouth and nose by pressing both thumbs down on the mask and blow until chest starts to rise,
+    turn you head, look for vapour expired in the mask to check airflow and chest movemnent.
+    use of mask is recommended for prevention of infection, vomitting casualty.(References from SLSS manual)`);
+
+} else if (elementId === '2 man cpr') {
+    alert(`one man does EAR, one does compression
+    fatigued compression rescuer calls for a switch on 5th cycle compression
+    "SWITCH and 2 and 3 and 4 and 30", EAR rescuer gives last 2 blows then switch to Compression rescuer, Compression rescuer becomes EAR rescuer.(References from SLSS manual)`);
+
+} else if (elementId === 'choking adult') {
+    alert(`Recognise FBAO;
+    Ask "Are you choking?"
+    Do not body contact until casualty agrees rescue.
+    Ask "Can you speak, can you breathe, can you cough?"
+    "I can help, do you want me to help?"
+    move behind casualty, one leg between (standing support to break fall) casualty.
+    landmark: locate navel using 2 finger, make a fist thumb in palm, place thumb side of fist agst abdomen 2 fingers above navel, lean casualty forward with one hand
+    thrusts: with other hand, grasp fist, quick inward, upward thrusts into abdomen. Until foreign body is expelled or casualty become unconscious.(References from SLSS manual)`);
+
+//s4Resuscitation.html*** 
+
 }}
