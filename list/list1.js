@@ -32,7 +32,18 @@ function displayAnswer(elementId) {
 } else if (elementId === 'vice grip tow') {
     alert(`for suspected spinal injury;approach from side;place one forearm along spine with hand cupping back of casualty's head;other forearm on casualty's sternum supporting jaw;lock both writs and squeeze the forearms together to create a vice, immobilises casualty's body with an upward downward pressure;for casualty face down in water, vice grip first then rotate person to face up; move carefully minimise motion altering casualty's hips and legs.(Reference from SLSS manual)`);
 
+} else if (elementId === 'rescue principles') {
+    alert(`Also known as "rescue ladder", these are the sequence of rescue to adopt, from the safest for rescuer to risks levels dependent on the rescuer's skill level and competency<br><b>Talk<br>Reach <br>Throw<br>Wade<br>Row<br>Swim <br>Tow </b>(non-contact => contact tow)<br>.(Reference from SLSS manual)`);
+} else if (elementId === 'rescue steps') {
+    alert(`Sequence of a lifesaver's rescue steps: <br>[] Alert to an emergencty <br>[] Accept rescue responsibility <br>[] Assess situation <br>[] Action a plan <br>[] Act on the rescue <br>[] Aftercare-tel. no. to report casualty's name, hospital sent to.(Reference from SLSS manual)`);
+} else if (elementId === 'rescue plan') {
+    alert(`.(Reference from SLSS manual)`);
 } else if (elementId === '') {
     alert(``);
+} else if (elementId === '') {
+    alert(``);
+
+
+
 
 }}
