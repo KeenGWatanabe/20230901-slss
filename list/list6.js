@@ -145,10 +145,45 @@ function displayAnswer(elementId) {
     relieve once substance no longer in larynx.
 
     .  (References from SLSS manual)`);
+    //s6RespiratorySystem.html***
+    //s6CardiovascularSystem.html*
+} else if (elementId === 'cardiovascular') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'heart') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'body circulation') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'pulmonary circulation') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'cardiac circulation') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'blood composition') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === 'heart malfunction') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
 } else if (elementId === '') {
     alert(`
     .  (References from SLSS manual)`);
 
-//s6RespiratorySystem.html*** 
+ //s6CardiovascularSystem.html***
+ //s6Spinal.html*
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+
+ //s6Spinal.html***
 
 }}

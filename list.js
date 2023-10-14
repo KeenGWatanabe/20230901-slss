@@ -38,6 +38,11 @@ else if (elementId === 's3Tow') {
 else if (elementId === 's6RespiratoryIntro') {
     window.open(href="list/s6RespiratorySys.html",'chat AI','resizable,height=300,width=500');
 }
+else if (elementId === 's6CardiovascularSys') {
+    window.open(href="list/s6CardiovascularSys.html",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === 's6Spinal') {
+    window.open(href="list/s6Spinal.html",'chat AI','resizable,height=300,width=500');
 
-
+}
 }
