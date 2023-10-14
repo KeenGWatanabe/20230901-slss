@@ -85,18 +85,66 @@ function displayAnswer(elementId) {
     nect & abdomen muscles contribute to inspiratory effot.
     .  (References from SLSS manual)`);
 
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'control of breathing') {
+    alert(`*Control of Breathing*
+    Brain respiratory centre controls this function-stimulated by CO² in blood.
+    CO² is produced during breakdown of fuel molecules, and blood carrying CO² reaches brain respiratory centre, it sends nerve impulses to the diaphragm and muscles to contract, the muscles working rhythmically for inspiration and expiration action.
     .  (References from SLSS manual)`);
 
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'exercise breathing') {
+    alert(`*Exercise Breathing*
+    Normal rate for adults 10-12 times/min;
+    Normal rate for children 20-22 times/min;
+    Exercise rate is higher because of higher CO² production > stimulus to respiratory centre to quicken and deepened breathing .
     .  (References from SLSS manual)`);
 
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'rescue breathing') {
+    alert(`*Expired Air Resuscitation*
+    Blowing expired air into lungs of casualty simulates national normal inspiration.  Expired air contains 17% O², is enough for average 5% O² needed to keep casualty oxygen ventilated.  Tidal wave of a child is greater than  adult, will be able to inflate adult lungs.                            
     .  (References from SLSS manual)`);
 
+} else if (elementId === 'Not breathing') {
+    alert(`*What can go wrong?*
+    airway obstruction
+    asthma
+    hyperventilation
+    smoke and gas inhalation
+    laryngospasm
+        
+    
+    .  (References from SLSS manual)`);
+} else if (elementId === 'airway obstruction') {
+    alert(`AIRWAY OBSTRUCTION
+    -suffocation by external obstruction
+    -blockage or swelling air passages
+    -compression of trachea from strangulation
+    .  (References from SLSS manual)`);
+} else if (elementId === 'asthma') {
+    alert(`ASTHMA
+    -muscle spasm of airway
+    -airway linings swell
+
+    .  (References from SLSS manual)`);
+} else if (elementId === 'hyperventilation') {
+    alert(`HYPERVENTILATION
+    -excessive quick deep breaths drawing CO²
+    -low CO² makes blood more alkaline
+    -alkaline blood constricts vessels limiting brain receiving less blood and O² leading to fainting.
+    .  (References from SLSS manual)`);
+} else if (elementId === 'smoke gas') {
+    alert(`SMOKE & GAS INHALATION
+    CO (carbon monoxide) reduces blood ability to carry O², (not CO² that trigger in the brain),
+    Smoke contains toxins, low in O², irritates respiratory tract, may burn trachea,
+    Poisonous gases may disrupt other body functions.
+    .  (References from SLSS manual)`);
+} else if (elementId === 'laryngospasm') {
+    alert(`LARYNGOSPASM
+    Involuntary muscular contraction of (larynx) vocal cords causing partial blockage of trachea.
+    Trigger when larynx detects water or substances entry, 
+    difficult breathing and anxiety,
+    relieve once substance no longer in larynx.
+
+    .  (References from SLSS manual)`);
 } else if (elementId === '') {
     alert(`
     .  (References from SLSS manual)`);
