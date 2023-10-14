@@ -32,14 +32,34 @@ function displayAnswer(elementId) {
     (References from SLSS manual)`);
 
 } else if (elementId === 'gas exchange') {
-    alert(`The oxygen breathed in, passes thin walls of the alveoli.(References from SLSS manual)`);
+    alert(`*oxygen in*
+    The oxygen breathed in, passes thin walls of the alveoli is taken up by blood through capillaries surrounding the alveioli. Transported by pulmonary artery.
+    *carbon dioxide out*
+    Carbon dioxide passes in the opposite direction from the capillaries into the alveoli. Transported by pulmonary vein.
+    (References from SLSS manual)`);
+
+} else if (elementId === 'lungs') {
+    alert(`Both lungs are cone shaped consisting of elastic tissue prtected 
+    front by breastbone(sternum)
+    back  by spine(vertebral column)
+    surrounded by ribs(thoracic cage-from spine around to join at the sternum).(References from SLSS manual)`);
+
+
+} else if (elementId === 'thoracic cage') {
+    alert(`First 7 ribs per side attaches the sternum, next 3 attaches just the ribs. Last 2 ribs lie free.  Intercostal muscles between ribs aids in breathing.  The bottom has a diaphragm separated from the abdomen.  (References from SLSS manual)`);
+
+} else if (elementId === 'diaphragm') {
+    alert(`A sheet of strong fibrous muscular tissue with circumference attached to the thoriacic cavity, movement designed for inpsirationa and expiration.  (References from SLSS manual)`);
+
+} else if (elementId === 'pleura') {
+    alert(`Two layers of very thin membrane, layer one covers the lungs, other layer lines the chest wall. Closed space between both layers contains a very thin layer of lubricant to facilitate movement.
+    
+    Damage: pleura puncture results in air escaping and lungs collapse, blood not properly oxygenated.
+    (References from SLSS manual)`);
 
 } else if (elementId === '') {
-    alert(`.(References from SLSS manual)`);
+    alert(`.  (References from SLSS manual)`);
 
-} else if (elementId === '') {
-    alert(`.(References from SLSS manual)`);
-
-//s4Resuscitation.html*** 
+//s6RespiratorySystem.html*** 
 
 }}
