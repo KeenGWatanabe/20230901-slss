@@ -157,7 +157,7 @@ else if(inputText.toLowerCase().indexOf("fbao")>-1&&inputText.toLowerCase().inde
 //else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.(Reference from SLSS manual)`;}
 //s5-emergency care***
 //s6-anatomy & physiology*
-//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.Reference from SLSS manual`;}
+else if(inputText.toLowerCase().indexOf("respiratory system")>-1&&inputText.toLowerCase().indexOf("explain")>-1||inputText.toLowerCase().indexOf("respiratory system")>-1&&inputText.toLowerCase().indexOf("what")>-1){document.getElementById("answer").innerHTML=`We are respiratory organisms, every cell in the body needs oxygen for survival.  Our respiratory system consists of all organs, tissues and structures that facilitates breathing.  Respiratory failures or malfunctions are considered emergencies.  Reference from SLSS manual`;}
 //s6-anatomy & physiology***
 
 //s7-legal aspects*
