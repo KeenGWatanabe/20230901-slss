@@ -36,7 +36,7 @@ else if (elementId === 's3Tow') {
     window.open(href="list/s3Tow.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 's6RespiratoryIntro') {
-    alert(`We are respiratory organisms, every cell in the body needs oxygen for survival.  Our respiratory system consists of all organs, tissues and structures that facilitates breathing.  Respiratory failures or malfunctions are considered emergencies.  Reference from SLSS manual`);
+    window.open(href="list/s6RespiratorySys.html",'chat AI','resizable,height=300,width=500');
 }
 
 
