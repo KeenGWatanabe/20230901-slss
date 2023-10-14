@@ -39,10 +39,10 @@ function displayAnswer(elementId) {
     (References from SLSS manual)`);
 
 } else if (elementId === 'lungs') {
-    alert(`Both lungs are cone shaped consisting of elastic tissue prtected 
-    front by breastbone(sternum)
-    back  by spine(vertebral column)
-    surrounded by ribs(thoracic cage-from spine around to join at the sternum).(References from SLSS manual)`);
+    alert(`Both lungs are cone shaped consisting of elastic tissue protected 
+    front by breastbone (sternum)
+    back  by spine (vertebral column)
+    surrounded by ribs (thoracic cage-from spine around to join at the sternum).(References from SLSS manual)`);
 
 
 } else if (elementId === 'thoracic cage') {
@@ -57,8 +57,49 @@ function displayAnswer(elementId) {
     Damage: pleura puncture results in air escaping and lungs collapse, blood not properly oxygenated.
     (References from SLSS manual)`);
 
+} else if (elementId === 'breathing mechanics') {
+    alert(`
+    Normal breathing:- 2-3ltr tidal vol., short pause between expiration and inspiration.
+    Deep breaths:- upto 6ltr tidal vol., are voluntary, also with short pause.
+    Exercise:-  upto 6ltr tidal vol., deeper faster without pause betwen breaths.
+    Direct method:- means EAR receives about 3ltr tidal vol. usually deeper than normal breathing, also with pause between expire and inspire air flow.   
+    (References from SLSS manual)`);
+
+} else if (elementId === 'inspiration') {
+    alert(`*inspiration*
+    diaphragm contracts, moving up;
+    rib moves up and outwards;
+    chest cavity enlarges drawing air in.  (References from SLSS manual)`);
+
+} else if (elementId === 'expiration') {
+    alert(`*expiration*
+    diaphragm returns to rest, moving down;
+    rib returns down and inwards;
+    chest cavity expels air out.
+    .  (References from SLSS manual)`);
+
+} else if (elementId === 'deep breathing') {
+    alert(`*Deep Breathing*
+    diaphragm contracts more vigorously;
+    intercostal muscles contract more strongly;
+    nect & abdomen muscles contribute to inspiratory effot.
+    .  (References from SLSS manual)`);
+
 } else if (elementId === '') {
-    alert(`.  (References from SLSS manual)`);
+    alert(`
+    .  (References from SLSS manual)`);
+
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
 
 //s6RespiratorySystem.html*** 
 
