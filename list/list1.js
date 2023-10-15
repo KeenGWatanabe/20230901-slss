@@ -341,7 +341,7 @@ function displayAnswer(elementId) {
     move behind casualty, one leg between (standing support to break fall) casualty.
     landmark: locate navel using 2 finger, make a fist thumb in palm, place thumb side of fist agst abdomen 2 fingers above navel, lean casualty forward with one hand
     thrusts: with other hand, grasp fist, quick inward, upward thrusts into abdomen. Until foreign body is expelled or casualty become unconscious.(References from SLSS manual)`);
-
+}}
 //s4Resuscitation.html*** 
 
-}}
+
