@@ -60,18 +60,38 @@ function displayAnswer(elementId) {
 
         .(References from SLSS manual)`);
     } else if (elementId === 'hypothermia treatment unconscious') {
-                        alert(`hypothermia treatment unconscious
-                        -Check airway, breathing, signs of life
-                        -apply direct body heat
-                        -apply warm water bottles wrapped in towels to armpits and groin,
-                        [handle casualy gently and rewarmed slowly]
-                         .(References from SLSS manual)`);
-    } else if (elementId === '') {
-                            alert(`
-                             .(References from SLSS manual)`);
+        alert(`hypothermia treatment unconscious
+               -Check airway, breathing, signs of life
+               -apply direct body heat
+               -apply warm water bottles wrapped in towels to armpits and groin,
+               [handle casualy gently and rewarmed slowly]
+               .(References from SLSS manual)`);
+    } else if (elementId === 'hyperthermia') {
+     alert(`hyperthermia
+     -prolonged swimming in >28°C warm water may cause:
+     -HEAT EXHAUSTION (loss of salt, water, heavy sweating)
+     -casualty feels weakness, nausea, cramps, fast pulse, 38°C body temp
+     -heat exhaustion treatment - sips of salted water, goto cool dry place, feet raised, loosen clothing.
+     -HEAT STROKE (sweatin mechanism blocked, >42°C, rapid pulse, collapse)
+     -casualty skin red, hot, dry, blurred vision, vomit, delirium, unconscious;
+     -heat stroke treatment - lie cool place, remove clothing
+     -use wet towels, fans, sip cold water   
+     DO NOT: 
+        -massage arms and legs
+        -drink alcohol / medication,
+        -move casualty unnecessarily.
+
+     .(References from SLSS manual)`);
  
     } else if (elementId === '') {
-            alert(`
-             .(References from SLSS manual)`);
+     alert(`
+     .(References from SLSS manual)`);
+   
+} else if (elementId === '') {
+    alert(`
+    .(References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .(References from SLSS manual)`);    
 }                         
 }         
