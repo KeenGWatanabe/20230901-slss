@@ -176,7 +176,11 @@ function displayAnswer(elementId) {
     .  (References from SLSS manual)`);
 
 } else if (elementId === 'body circulation') {
-    alert(`
+    alert(`aorta(largest artery) branches to various organs into artries:
+    body temperature control - skin blood circulation;
+    artries divide into capillaries so small-only single red blood cell passes;
+    O² and CO² exchanges at capillary level;
+    returns to heart right atrium via veins.  
     .  (References from SLSS manual)`);
 } else if (elementId === 'pulmonary circulation') {
     alert(`
