@@ -33,6 +33,11 @@ else if (elementId === 's3Tow') {
 else if (elementId === 's4Resuscitation') {
     window.open(href="list/s4Resuscitation.html",'chat AI','resizable,height=300,width=500');
 }
+else if (elementId === 's5EmergencyCare') {
+    window.open(href="list/s5EmergencyCare.html",'chat AI','resizable,height=300,width=500');
+}
+
+
 else if (elementId === 's6CardiovascularSys') {
     window.open(href="list/s6CardiovascularSys.html",'chat AI','resizable,height=300,width=500');
 }
