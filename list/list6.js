@@ -209,15 +209,21 @@ function displayAnswer(elementId) {
     ciculatory shock - from reduced blood flow to vital organs;
     fainting - from reduced blood flow to brain > lost consciousness;
     .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
 
  //s6CardiovascularSystem.html***
  //s6Spinal.html*
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
+} else if (elementId === '') {
+    alert(`
+    .  (References from SLSS manual)`);
 } else if (elementId === '') {
     alert(`
     .  (References from SLSS manual)`);
