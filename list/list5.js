@@ -83,15 +83,35 @@ function displayAnswer(elementId) {
 
      .(References from SLSS manual)`);
  
-    } else if (elementId === '') {
-     alert(`
+} else if (elementId === 'spinal injury') {
+     alert(`Impact of hitting bottom of a pool can literally destroy the spinal cord
+     Highly skilled lifesaver will treat any unconscious person as a possible spinal injury;
+     any perons leaves water complaining of neck sore, pain, pins, needles in any limb,
+     loss of movement, tingling sensation, diorientation, impaired breathing, back neck deformity, bruising in spinal column, fluid or blood in ears.
      .(References from SLSS manual)`);
    
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'spinal rescue') {
+    alert(`STEPS
+    1-activate emergency plan > EMS
+    2-gentle approach to casualty
+    3-immobilisation > vice grip, extended arm rollover
+    4-airway management > establish breathing, jaw thrust
+    5-recruit assistants > most experienced, knowledgeable takes charge
+    6-stabilisation > head-hips-legs sequence
+    7-remove from water > spinal board
+    8-follow up
     .(References from SLSS manual)`);
+
+} else if (elementId === 'jaw thrust') {
+    alert(`without head tilt chin lift,
+    -use both hands, thumbs press below casualty's cheek bones;
+    -fingers clench casualty's jaw joint and press upwards.
+    -this moves the tongue opens the airway
+
+    `);    
+
 } else if (elementId === '') {
     alert(`
-    .(References from SLSS manual)`);    
+    .(References from SLSS manual)`);        
 }                         
 }         
