@@ -26,7 +26,7 @@ function displayAnswer(elementId) {
     EAR check breathing 10s > 2 blows > 1 thousand,
     2 thousand, 3 thousand, 4 thousand, ONE (blow)
     ...until reach pool edge apply supported position
-    continue EAR, until help arrives/+bystanders help call EMS.
+    continue EAR, until help arrives/ bystanders help call EMS.
     .(References from SLSS manual)`);
 } else if (elementId === '') {
     alert(`

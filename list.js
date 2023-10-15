@@ -18,7 +18,7 @@ else if (elementId === 'contents') {
     window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 'disclaimer') {
-    alert(`This content is created for trainee and trained lifesaver's references only.  Context of saving methodology is subject to skills and experiences interpretation, quotes here are by no means comprehensive enough to be used alone. (Web Developer)`);
+    alert(`This content is created for trainee and trained lifesaver's references only.  Context of saving methodology is subject to relevant skills, experiences and expertise interpretation, content here are by no means comprehensive enough to be used alone. The proper way to be an effective lifesaver is to undertake a course of training provided by a licensed trainer and certified by a recognised lifesaving authority. (chatbot developer)`);
 }
 else if (elementId === 's2Hygiene') {
     window.open(href="list/s2Hygiene.html",'chat AI','resizable,height=300,width=500');
