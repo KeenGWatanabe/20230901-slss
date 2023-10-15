@@ -183,16 +183,31 @@ function displayAnswer(elementId) {
     returns to heart right atrium via veins.  
     .  (References from SLSS manual)`);
 } else if (elementId === 'pulmonary circulation') {
-    alert(`
+    alert(`*Pulmonary (Lung) Circulation*
+    []-> CO² blood fr rt atrium VIA Pulmonary arteries(with CO² blood) > LUNGS > O² blood enter left atrium; 
+    O² blood enter left atrium VIA Pulmonary veins(with O² blood) > out via Aorta > BODY > CO² []->
     .  (References from SLSS manual)`);
 } else if (elementId === 'cardiac circulation') {
-    alert(`
+    alert(`heart also needs O² to work, from it coronary artieries. 
+    Pulse can be felt from arteries near skin surface, adult pulse rate 60-80 bpm.
+    Locate at wrist (radial) or neck (carotid) for adults and children; brachial pulse(inside upper arm) for infants.
+
     .  (References from SLSS manual)`);
 } else if (elementId === 'blood composition') {
     alert(`
+    55% plasma carrying sugar, nutritonal compounds;
+    45% cellular component 
+    - red cells: 
+    haemoglobin carry O² (bright red)
+    haemoglobin carry CO² (dark red) 
+
     .  (References from SLSS manual)`);
 } else if (elementId === 'heart malfunction') {
-    alert(`
+    alert(`Heart Malfunctions Definitions
+    heart attack - due to clots in arteries obstructing blood supply > heart muscle dies;
+    profuse bleeding - less blood = less O² > cell deaths;
+    ciculatory shock - from reduced blood flow to vital organs;
+    fainting - from reduced blood flow to brain > lost consciousness;
     .  (References from SLSS manual)`);
 } else if (elementId === '') {
     alert(`
