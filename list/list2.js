@@ -27,7 +27,7 @@ function displayAnswer(elementId) {
     -wear gloves, tucked under long sleeves(if wearing long sleeves);
     -wear plastic apron for rest of body;
     -use pocket masks, face shields;
-    -not cough or sneeze                                  while treaing casualty;
+    -not cough or sneeze while treaing casualty;
     .(References from SLSS manual)`);
 } else if (elementId === 'aft lifesaving') {
     alert(`After Lifesaving
