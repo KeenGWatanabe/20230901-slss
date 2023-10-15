@@ -212,24 +212,33 @@ function displayAnswer(elementId) {
 
  //s6CardiovascularSystem.html***
  //s6Spinal.html*
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'central nervous') {
+    alert(`Central nervous system - most developed human body system
+    controls speech, memory, thought, will, correlates body system activities.
+    
     .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
+} else if (elementId === 'spinal cord') {
+    alert(`Composed a series of vertebrae separated by softer discs, joined by strong ligaments.  Offers flexible support to the body, protection of the spinal cord.
+    Each vertebrae is a circle of bone,
+    separated by cushions of cartilage (shock absorber-intervertebral disks)
+    The spinal cord's bundle of nerves runs through hallow part of the vertebrae, branches out to various parts of body through openings at sides of vertebrae.
     .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
-} else if (elementId === '') {
-    alert(`
-    .  (References from SLSS manual)`);
+} else if (elementId === 'cervical vertebrae') {
+    alert(`cervical vertebrae
+    neck - cervical vertebrae, 7 vertebrae C1-C7, supports the cranium weight and motion. 
+    . `);
+} else if (elementId === 'thoracic vertebrae') {
+    alert(`mid back - thoracic vertebrae, 12 vertebrae T1-T12 (longest section of spinal cord)
+    . `);
+} else if (elementId === 'lumbar vertebrae') {
+    alert(`lower back - lumbar vertebrae, 5 vertebrae L1-L5 (largest vertebrae of the spinal cord)
+    . `);
+} else if (elementId === 'sacrum') {
+    alert(`hip joint bone - sacrum, connects to ilium(hip bones), very small amount of motion for normal body flexibility.
+    .`);
+} else if (elementId === 'coccyx') {
+    alert(`tail bone - coccyx, 3-5 fused vertebrae steadys & support weight when sitted.
+    .`);
 
  //s6Spinal.html***
 
