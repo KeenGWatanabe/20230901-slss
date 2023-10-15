@@ -148,11 +148,33 @@ function displayAnswer(elementId) {
     //s6RespiratorySystem.html***
     //s6CardiovascularSystem.html*
 } else if (elementId === 'cardiovascular') {
-    alert(`
+    alert(`circulatory system = heart and blood vessels;
+    heart muscle - heart's rhythmic contraction and relaxation;
+    network of vessels -  arteries, veins, capillaries;
+    blood pressure - is the force indicating strength of heartbeat, elasticity of arterial walls, thickness of blood.
     .  (References from SLSS manual)`);
 } else if (elementId === 'heart') {
-    alert(`
+    alert(`position - behind sternum, somewhat extending to the left;
+    adult - 6ltr blood through more than 1,000 circuits daily;
+    heart - left and right pump, 2 chambers in each pump;
+    left pump - 5 times stronger than the right pump,
+    *BLOOD INFLOW*
+    upper chambers - right atrium receive blood from body, left atrium from lungs;
+    right atrium(inlet vessels) - inferior(bottom) vena cava, superior(above) vena cava (fr body) 
+    left atrium(inlet vessels) - right pulmonary vein, left pulmonary vein (fr lungs)
+    *BLOOD OUTFLOW*
+    lower chambers - right ventricle sends blood to the lungs, left ventricle to the body;
+    right atrium(outlet vessel) - pulmonary artery (to lungs)
+    left atrium(outlet vessel) - aorta (to body) 
+
     .  (References from SLSS manual)`);
+
+} else if (elementId === 'heart valve') {
+    alert(`*valves*
+    left atrium - mitral valve(bicuspid valve) 
+    right atrium - tricuspid valve
+    .  (References from SLSS manual)`);
+
 } else if (elementId === 'body circulation') {
     alert(`
     .  (References from SLSS manual)`);
