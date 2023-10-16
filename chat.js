@@ -32,11 +32,14 @@ else if(inputText.toLowerCase().indexOf("am")>-1&&inputText.toLowerCase().indexO
 else if(inputText.toLowerCase().indexOf("da")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("distinction")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("da")>-1&&inputText.toLowerCase().indexOf("skills")>-1){document.getElementById("answer").innerHTML=`DISTINCTION Award-brief key points<br>Minimum age: 16 years old<br>Pre-requisites: Award of Merit<br>1.Theory test.<br>2.valid SLSS Senior Resuscitation award.<br>3.Rescue fitness(6min)-conscious casualty 100m from safety, non-contact clothing tow to support position.<br>4.Contact tow-conscious casualty 50m away 100m from safety.<br>5.Resuscitation rescue-unconscious submerge casualty 45m from safety(1min 15sec first inflation)<br>6.Initiative-3 casualties 25m from safety.<br>7.swim 800m, min 4 different strokes(free-breast-survivalBack-side, 4 sets 50m each stroke)`;}
 //*DA***
 //*SLSS CPR**
-
+else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().indexOf("skills")>-1){document.getElementById("answer").innerHTML=`STANDARD RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(may mouth-mouth and mouth-nose)<br>3.Airway Obstruction (conscious, unconscious).<br>4.Initiative (DRS-ABC,recovery)`;}
 //*SLSS CPR***
 
 //SNR RESUSCITATION*
+else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1){document.getElementById("answer").innerHTML=`SENIOR RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(may mouth-mouth and mouth-nose)<br>3.Airway Obstruction (conscious, unconscious).<br>4.Initiative (DRS-ABC,recovery)`;}
+
 //SNR RESUSCITATION***
+
 			//s1-lifesaving***
 //s1-drowning*
 
