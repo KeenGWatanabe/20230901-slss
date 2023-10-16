@@ -28,6 +28,15 @@ else if(inputText.toLowerCase().indexOf("lifeguard")>-1&&inputText.toLowerCase()
 //*AM
 else if(inputText.toLowerCase().indexOf("am")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("merit")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("am")>-1&&inputText.toLowerCase().indexOf("skills")>-1){document.getElementById("answer").innerHTML=`MERIT Award-brief key points<br>Minimum age: 15 years old<br>Pre-requisites: Bronze Medallion<br>1.Theory test.<br>2.valid SLSS Senior Resuscitation award.<br>3.Rescue fitness(5min)-conscious casualty 75m from safety, non-contact clothing tow to support position.<br>4.Contact tow-conscious casualty 25m away 75m from safety.<br>5.Resuscitation rescue-unconscious submerge casualty 30m from safety(1min first inflation)<br>6.Initiative-2 casualties 25m from safety.<br>7.swim 600m, min 3 different strokes(free-breast-survival back-side, 3 sets 50m each stroke)`;}
 //*AM
+//*DA
+else if(inputText.toLowerCase().indexOf("da")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("distinction")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("da")>-1&&inputText.toLowerCase().indexOf("skills")>-1){document.getElementById("answer").innerHTML=`DISTINCTION Award-brief key points<br>Minimum age: 16 years old<br>Pre-requisites: Award of Merit<br>1.Theory test.<br>2.valid SLSS Senior Resuscitation award.<br>3.Rescue fitness(6min)-conscious casualty 100m from safety, non-contact clothing tow to support position.<br>4.Contact tow-conscious casualty 50m away 100m from safety.<br>5.Resuscitation rescue-unconscious submerge casualty 45m from safety(1min 15sec first inflation)<br>6.Initiative-3 casualties 25m from safety.<br>7.swim 800m, min 4 different strokes(free-breast-survivalBack-side, 4 sets 50m each stroke)`;}
+//*DA***
+//*SLSS CPR**
+
+//*SLSS CPR***
+
+//SNR RESUSCITATION*
+//SNR RESUSCITATION***
 			//s1-lifesaving***
 //s1-drowning*
 
