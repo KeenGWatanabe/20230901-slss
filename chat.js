@@ -36,7 +36,7 @@ else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().index
 //*SLSS CPR***
 
 //SNR RESUSCITATION*
-else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1){document.getElementById("answer").innerHTML=`SENIOR RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(may mouth-mouth and mouth-nose)<br>3.Airway Obstruction (conscious, unconscious).<br>4.Initiative (DRS-ABC,recovery)`;}
+else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1){document.getElementById("answer").innerHTML=`SENIOR RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(mouth-mask)<br>3.One rescuer CPR, Two rescuer CPR (mouth-mask)<br>4.Airway Obstruction (conscious, conscious-unconscious, unconscious).<br>5.Initiative (DRS-ABC,recovery)`;}
 
 //SNR RESUSCITATION***
 
