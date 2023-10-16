@@ -16,8 +16,14 @@ else if(inputText.toLowerCase().indexOf("lifesaving")>-1&&inputText.toLowerCase(
 
 else if(inputText.toLowerCase().indexOf("slss")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("slss")>-1&&inputText.toLowerCase().indexOf("who")>-1||inputText.toLowerCase().indexOf("lifesaving society")>-1&&inputText.toLowerCase().indexOf("what")>-1){document.getElementById("answer").innerHTML=`The acronym SLSS stands for Singapore Lifesaving Society, is a non-profit organisation, affiliated with Royal Life Saving Society (RLSS). The syllabus of your lifesaving awards originated from RLSS with adaptation for regional environment where suitable. <br><a href="https://www.slss.org.sg/" target="_blank">SLSS website</a><br><a href="https://www.rlss.org.uk/" target="_blank">RLSS website</a>`;}	
 
-			//s1-lifesaving***
-//s1-drowning*
+else if(inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("lifesaving")>-1||inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("manage")>-1){document.getElementById("answer").innerHTML=`Activity risks arises with combination of the environment, hazards, skills level, awareness, people.<br>This can be manage in view of risk severity, likelihood of occurence, level of risk. When humans are aware of risk to life, will attempt appropriate actions to mitigate/avoid those risks.<br>The instructor's risk awareness be more, and has reponsibility in ensuring a safe risk managed environment to conduct classes,<br>ongoing the students are inculcated with risk management skills and awareness throughout the course as well.
+`;}
+
+else if(inputText.toLowerCase().indexOf("insur")>-1&&inputText.toLowerCase().indexOf("lifesaving")>-1||inputText.toLowerCase().indexOf("insur")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("insur")>-1&&inputText.toLowerCase().indexOf("risk")>-1){document.getElementById("answer").innerHTML=`Generally, Singapore has no insurance for sports coaches' activities, participants can only rely on <b>personal accident insurance</b> for on individual purchase.  Do check your policy's terms and conditions if there is any clause that excludes coverage in part-taking certain activities, example car racing, sky diving, mountain climbing and high risks extreme sports are common exclusions in insurance policies.  Swimming and lifesaving lessons have not been specifically excluded in personal accidents policies so far.<br>Accidents occuring in certain venues are covered by <b>public liability insurace</b> undertaken by property owners.`;}
+
+
+//s1-lifesaving***
+
 
 //s2-hygiene*
 else if(inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transmi")>-1||inputText.toLowerCase().indexOf("disease")>-1&&inputText.toLowerCase().indexOf("transfer")>-1){document.getElementById("answer").innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: <br>[]colds, <br>[]influenza, <br>[]measles and mumps, <br>[]glandular fever, <br>[]Hepatitis A or B, <br>[]AIDS, <br>[]SARS, <br>[]Herpes, <br>[]Tuberculosis, <br>[]some forms of meningitis, <br>[]some skin infections.-Reference from SLSS manual`;}
@@ -196,6 +202,8 @@ else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().index
 else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior")>-1&&inputText.toLowerCase().indexOf(" resuscitation")>-1){document.getElementById("answer").innerHTML=`SENIOR RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(mouth-mask)<br>3.One rescuer CPR, Two rescuer CPR (mouth-mask)<br>4.Airway Obstruction (conscious, conscious-unconscious, unconscious).<br>5.Initiative (DRS-ABC,recovery)`;}
 
 //SNR RESUSCITATION***
+else if(inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("assess")>-1){document.getElementById("answer").innerHTML=`Suggested RAMS:<br>WHAT - learning objective, equipment, lifeguards availabe, insurance, food, PARQ, alternatives<br>WHO - teacher student ratio, parents, caregiver, public<br>WHERE - venue, nature(sea, mountains)<br>WHEN - appropriate duration with fitness, opening hours<br>WEATHER - nea app, replacement, alternative lessons, treatment hypothermia/hyperthermia)`;}
+
 //*s8-syllabus**
 
 //s8-life saving syllabus***
