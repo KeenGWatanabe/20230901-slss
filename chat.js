@@ -204,6 +204,7 @@ else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase()
 //SNR RESUSCITATION***
 else if(inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("assess")>-1){document.getElementById("answer").innerHTML=`Suggested RAMS:<br>WHAT - learning objective, equipment, lifeguards availabe, insurance, food, PARQ, alternatives<br>WHO - teacher student ratio, parents, caregiver, public<br>WHERE - venue, nature(sea, mountains)<br>WHEN - appropriate duration with fitness, opening hours<br>WEATHER - nea app, replacement, alternative lessons, treatment hypothermia/hyperthermia)`;}
 
+else if(inputText.toLowerCase().indexOf("rams")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rams")>-1&&inputText.toLowerCase().indexOf("content")>-1){document.getElementById("answer").innerHTML=`Suggested RAMS content:<br>Safety Briefing<br>Participant questions<br>Medical declaration<br>Environment check<br>Equipment check<br>Facility check<br>Weather check<br>Accident<br>Treatment<br>Report`;}
 //*s8-syllabus**
 
 //s8-life saving syllabus***
