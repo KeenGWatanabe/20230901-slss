@@ -164,7 +164,15 @@ else if(inputText.toLowerCase().indexOf("respiratory system")>-1&&inputText.toLo
 //s6-anatomy & physiology***
 
 //s7-legal aspects*
-//else if(inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1||inputText.toLowerCase().indexOf("")>-1&&inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML=`.Reference from SLSS manual`;}
+else if(inputText.toLowerCase().indexOf("lifesaver")>-1&&inputText.toLowerCase().indexOf("define")>-1||inputText.toLowerCase().indexOf("lifesaver")>-1&&inputText.toLowerCase().indexOf("legal")>-1){document.getElementById("answer").innerHTML=`"lifesaver" generally refers to volunteer or rescuers, including bystanders.  However, professional lifeguards are subjected to higher responsibilities under the law.<br> (e.g. Duty of care, Negligence, Tort, Battery). Reference from SLSS manual`;}
+
+else if(inputText.toLowerCase().indexOf("tort")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("tort")>-1&&inputText.toLowerCase().indexOf("consequence")>-1){document.getElementById("answer").innerHTML=`In law, if tort is proven, it means a wrong done by the wrongdoer, is under legal obligation to compensate the injured party. <br>Reference from SLSS manual`;}
+
+else if(inputText.toLowerCase().indexOf("negligen")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("negligen")>-1&&inputText.toLowerCase().indexOf("consequence")>-1){document.getElementById("answer").innerHTML=`Tort of negligence = "the breach of a legal duty of care which results in damage to the claimant" (Winfield & Jolowicz on Tort, 17th Ed.(2006)page132 )<br>basic requirements of negligence:-<br>a) proof duty of care;<br>b) breach of duty of care;<br> c) damage suffered by victim as a result of breach. Reference from SLSS manual`;}
+
+else if(inputText.toLowerCase().indexOf("duty of care")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("duty of care")>-1&&inputText.toLowerCase().indexOf("consequence")>-1){document.getElementById("answer").innerHTML=`For lifesavers, "reasonable" standard of duty of care established by the following factors, plus any prevailing circumstances:-<br>a) the evidence of experts (e.g. lifesaving teachers, examiners);<br> b) what other organisations or other people do (e.g. RLSS, SLSAA);<br>c) amount of training the person has (e.g. BM, AM, DA);<br>d) the policies, procedures, rules or standards set by SLSS or other life saving organisations;<br>e) Life saving text books or manuals;<br>f) the standards set in similar fields;<br>g) the information of risk which was available to the lifesaver;<br>h) requirements and standards set by law or legislation;<br>Ref: Alert:Lifeguarding by the RLSS Canada 1993,page 106.`;}
+
+else if(inputText.toLowerCase().indexOf("battery")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("battery")>-1&&inputText.toLowerCase().indexOf("consequence")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("consent")>-1){document.getElementById("answer").innerHTML=`Battery is the direct application of force to another perosn (Windfield & Jolowicz on Tort, 17th Ed.2006 page 88)<br>Before rendering assistance, lifeguard must identify themselves, in life threatening emergencies, the lifeguard should assume consent.  For children, their consent cannot be valid, it is best to obtain consent of both parent and child. `;}
 //s7-legal aspects***
 
 //s8-life saving syllabus*
@@ -204,10 +212,11 @@ else if(inputText.toLowerCase().indexOf("cpr")>-1&&inputText.toLowerCase().index
 else if(inputText.toLowerCase().indexOf("snr resus")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior resuscitation")>-1&&inputText.toLowerCase().indexOf("award")>-1||inputText.toLowerCase().indexOf("senior")>-1&&inputText.toLowerCase().indexOf(" resuscitation")>-1){document.getElementById("answer").innerHTML=`SENIOR RESUSCITATION Award-brief key<br>1.Theory test.<br>2.CPR-demostrate on adult/child manikin(mouth-mask)<br>3.One rescuer CPR, Two rescuer CPR (mouth-mask)<br>4.Airway Obstruction (conscious, conscious-unconscious, unconscious).<br>5.Initiative (DRS-ABC,recovery)`;}
 //SNR RESUSCITATION***
 
-
+//RAMS*
 else if(inputText.toLowerCase().indexOf("risk")>-1&&inputText.toLowerCase().indexOf("assess")>-1){document.getElementById("answer").innerHTML=`Suggested RAMS:<br>WHAT - learning objective, equipment, lifeguards availabe, insurance, food, PARQ, alternatives<br>WHO - teacher student ratio, parents, caregiver, public<br>WHERE - venue, nature(sea, mountains)<br>WHEN - appropriate duration with fitness, opening hours<br>WEATHER - nea app, replacement, alternative lessons, treatment hypothermia/hyperthermia)`;}
 
 else if(inputText.toLowerCase().indexOf("rams")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rams")>-1&&inputText.toLowerCase().indexOf("content")>-1){document.getElementById("answer").innerHTML=`Suggested RAMS content:<br>Safety Briefing<br>Participant questions<br>Medical declaration<br>Environment check<br>Equipment check<br>Facility check<br>Weather check<br>Accident<br>Treatment<br>Report`;}
+//RAMS***
 //*s8-syllabus**
 
 //s8-life saving syllabus***
@@ -228,14 +237,11 @@ else if(inputText.toLowerCase().indexOf("rams")>-1&&inputText.toLowerCase().inde
 else if(inputText.toLowerCase().indexOf("life")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'lifeguard' with: award, certification, qualification, age";
 }
-//"school' keyword prompt*
-else if(inputText.toLowerCase().indexOf("schoo")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'school' with: primary, secondary, result, raffles institution ";
+
+else if(inputText.toLowerCase().indexOf("da")>-1||inputText.toLowerCase().indexOf("bm")>-1||inputText.toLowerCase().indexOf("am")>-1){
+	document.getElementById("answer").innerHTML=` try keyword '${inputText}' with: award, certification, qualification, age`;
 }
-//"colonial" keyword prompt* 
-else if(inputText.toLowerCase().indexOf("colonial")>-1){
-	document.getElementById("answer").innerHTML=" try keyword 'colonial' with: education, school, economy, master";
-}
+
 //"landings" keyword prompt* 
 else if(inputText.toLowerCase().indexOf("landing")>-1){
 	document.getElementById("answer").innerHTML=" try keyword 'landing' with: types, walk out, drag, shoulder carry, pick a back carry, stirrup, assisted lift, straight arm lift, use (lift and lower) with this methods ";
