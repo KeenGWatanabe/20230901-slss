@@ -52,6 +52,10 @@ else if (elementId === 's6Spinal') {
     window.open(href="list/s6Spinal.html",'chat AI','resizable,height=300,width=500');
 
 }
+else if (elementId === 's7Legal') {
+    window.open(href="list/s7Legality.html",'chat AI','resizable,height=300,width=500');
+
+}
 else if (elementId === 's8Rescue') {
     window.open(href="list/s8Rescue.html",'chat AI','resizable,height=300,width=500');
 }
