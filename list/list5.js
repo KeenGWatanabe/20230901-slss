@@ -96,7 +96,7 @@ function displayAnswer(elementId) {
         .(References from SLSS manual)`);
    
 } else if (elementId === 'spinal rescue') {
-    alert(`STEPS
+    alert(`STEPS - EGIAASWF
     1-activate emergency plan > EMS
     2-gentle approach to casualty
     3-immobilisation > vice grip, extended arm rollover
@@ -132,6 +132,14 @@ function displayAnswer(elementId) {
 
     .(References from SLSS manual)`);
 
+} else if (elementId === 'jaw thrust') {
+    alert(`without head tilt chin lift,
+    -use both hands, thumbs press below casualty's cheek bones;
+    -fingers clench casualty's jaw joint and press upwards.
+    -this moves the jaw with the tongue forwards, and opens the airway
+
+    `);    
+
 
 } else if (elementId === 'vice grip video') {
     window.open(href="../videos/ViceGripVid.mp4",'chat AI','resizable,height=300,width=500');
@@ -139,15 +147,10 @@ function displayAnswer(elementId) {
 } else if (elementId === 'extended arm rollover video') {
     window.open(href="../videos/ExtendedArmRolloverVideo.mp4",'chat AI','resizable,height=300,width=500');
 
+} else if (elementId === 'jaw thrust video') {
+    window.open(href="../videos/webm-jawthrust.webm",'chat AI','resizable,height=300,width=500');
     
 
-} else if (elementId === 'jaw thrust') {
-    alert(`without head tilt chin lift,
-    -use both hands, thumbs press below casualty's cheek bones;
-    -fingers clench casualty's jaw joint and press upwards.
-    -this moves the tongue opens the airway
-
-    `);    
 
 } else if (elementId === 's5 spinalVideo') {
     window.open(href="s5SpinalVid.html",'chat AI','resizable,height=300,width=500');
