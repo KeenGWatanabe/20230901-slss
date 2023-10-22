@@ -116,7 +116,7 @@ function displayAnswer(elementId) {
     -approach from side;  
     -place one forearm along spine with hand cupping back of casualty's head;  
     -other forearm on casualty's sternum supporting jaw;  
-    -lock both writs and squeeze the forearms together to create a vice, this immobilises casualty's body with an upward downward pressure;  
+    -lock both wrists and squeeze the forearms together to create a vice, this immobilises casualty's body with an upward downward pressure;  
     -for casualty face down in water, vice grip first then rotate person to face up;   
     -move carefully minimise motion altering casualty's hips and legs.
     
