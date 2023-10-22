@@ -39,6 +39,7 @@ else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().in
 
 
 else if(inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("steps")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("plan")>-1||inputText.toLowerCase().indexOf("rescue")>-1&&inputText.toLowerCase().indexOf("ladder")>-1){document.getElementById("answer").innerHTML=`Also known as "rescue ladder", these are the sequence of rescue to adopt, from the safest for rescuer to risks levels dependent on the rescuer's skill level and competency<br><b>Talk<br>Reach <br>Throw<br>Wade<br>Row<br>Swim <br>Tow </b>(non-contact => contact tow)<br>.(Reference from SLSS manual)`;}
+
 //s3-rescue-tow
 else if(inputText.toLowerCase().indexOf("non contact")>-1&&inputText.toLowerCase().indexOf("rescue")>-1||inputText.toLowerCase().indexOf("accompanied")>-1&&inputText.toLowerCase().indexOf("rescue")>-1){document.getElementById("answer").innerHTML=`swim out with a buoyant aid, accompany casualty to safety without direct contact.<br>approach reassure the casualty;<br>keeping safe distance at defensive position;<br>ask casualty to grasp aid firmly, kick to move;<br>providing reassurance throughout(Reference from SLSS manual)`;}
 
@@ -241,7 +242,7 @@ else if(inputText.toLowerCase().indexOf("life")>-1){
 }
 
 else if(inputText.toLowerCase().indexOf("da")>-1||inputText.toLowerCase().indexOf("bm")>-1||inputText.toLowerCase().indexOf("am")>-1){
-	document.getElementById("answer").innerHTML=` try keyword '${inputText}' with: award, certification, qualification, age`;
+	document.getElementById("answer").innerHTML=` try keyword '${inputText}' with: "award".`;
 }
 
 //"landings" keyword prompt* 
