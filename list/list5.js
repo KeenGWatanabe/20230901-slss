@@ -96,6 +96,8 @@ function displayAnswer(elementId) {
         .(References from SLSS manual)`);
    
 } else if (elementId === 'spinal rescue') {
+    window.open(href="s5SpinalVid.html",'chat AI','resizable,height=300,width=500');
+} else if (elementId === 'spinal rescue steps') {    
     alert(`STEPS - EGIAASWF
     1-activate emergency plan > EMS
     2-gentle approach to casualty
@@ -106,6 +108,7 @@ function displayAnswer(elementId) {
     7-remove from water > spinal board
     8-follow up
     .(References from SLSS manual)`);
+
 
 } else if (elementId === 'vice grip') {
     alert(`
@@ -140,20 +143,67 @@ function displayAnswer(elementId) {
 
     `);    
 
+} else if (elementId === 'assistants stabilise') {
+    alert(`6-stabilisation > head-hips-legs sequence
+    Only when assistants available can stabilisation be attempted.
+    -head - rescuer one (extended arm rollover hold-face up)
+    -hips - rescuer two same side as rescuer one (gently raises casualty's hips to water surface)
+    -legs - rescuer three (supports ankles at water surface)
+    -once stabilise - rescuer 2 do EAR, if not, rescurer 1 do EAR leave immobilisaton to the others
+    .(References from SLSS manual)`);
 
+} else if (elementId === 'remove from water') {
+    alert(`7-remove from water
+    -spinal board - rescuer four get spinal board
+    -rescuer one - releases grip as board position under the body;
+    -once casualty secure to board;
+    -rescuer one at head (cervical collar, packing at head);
+    - shallow water removal - board parallel to waters edge, lift upwards to land rescuers;
+    - deep water removal - board head first with assistants on land coordinate the move;
+    .(References from SLSS manual)`);
+
+} else if (elementId === 'conscious person') {
+    alert(`8-follow up
+    -do not move person until medical help arrives;
+    -protect from environment;
+    -do not give food and fluids;
+    -reassure the person;
+        .(References from SLSS manual)`);
+    
+} else if (elementId === 'unconscious person breathing') {
+    alert(`8-follow up
+    -do not move person until medical help arrives;
+    -protect from environment;
+    -maintain airway using jaw thrust;
+        .(References from SLSS manual)`);
+
+} else if (elementId === 'unconscious person no breathing') {
+alert(`8-follow up
+-do not move person until medical help arrives;
+-protect from environment;
+-slight tilt to check airway; check breathing;
+-open airway using jaw thrust EAR, CPR ;
+    .(References from SLSS manual)`);
+    
+} else if (elementId === 'spinal vomits') {
+    alert(`8-follow up
+    -tilt board carefully onto the side;
+    -suction device should be use when possible;
+           .(References from SLSS manual)`);
+    
 } else if (elementId === 'vice grip video') {
-    window.open(href="../videos/ViceGripVid.mp4",'chat AI','resizable,height=300,width=500');
+    window.open(href="../videos/ViceGripVid.mp4", target='_blank','chat AI','resizable,height=300,width=500');
 
 } else if (elementId === 'extended arm rollover video') {
-    window.open(href="../videos/ExtendedArmRolloverVideo.mp4",'chat AI','resizable,height=300,width=500');
+    window.open(href="../videos/ExtendedArmRolloverVideo.mp4", target='_blank', 'chat AI','resizable,height=300,width=500');
 
 } else if (elementId === 'jaw thrust video') {
-    window.open(href="../videos/webm-jawthrust.webm",'chat AI','resizable,height=300,width=500');
+    window.open(href="../videos/webm-jawthrust.webm", target='_blank', 'chat AI','resizable,height=300,width=500');
     
 
 
 } else if (elementId === 's5 spinalVideo') {
-    window.open(href="s5SpinalVid.html",'chat AI','resizable,height=300,width=500');
+    window.open(href="s5SpinalVid.html", target='_blank', 'chat AI','resizable,height=300,width=500');
 
 }                         
 }         
