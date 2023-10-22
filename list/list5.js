@@ -98,7 +98,7 @@ function displayAnswer(elementId) {
 } else if (elementId === 'spinal rescue') {
     window.open(href="s5SpinalVid.html",'chat AI','resizable,height=300,width=500');
 } else if (elementId === 'spinal rescue steps') {    
-    alert(`STEPS - EGIAASWF
+    alert(`STEPS - EGIAASWA
     1-activate emergency plan > EMS
     2-gentle approach to casualty
     3-immobilisation > vice grip, extended arm rollover
