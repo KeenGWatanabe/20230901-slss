@@ -89,7 +89,7 @@ function displayAnswer(elementId) {
     (Reference from SLSS manual)`);  
 
 } else if (elementId === 'vice grip tow') {
-    alert(`Vice Grip Tow:
+    alert(`Vice Grip:
     -for suspected spinal injury;  
     -approach from side;  
     -place one forearm along spine with hand cupping back of casualty's head;  

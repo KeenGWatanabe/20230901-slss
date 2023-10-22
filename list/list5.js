@@ -89,6 +89,11 @@ function displayAnswer(elementId) {
      any perons leaves water complaining of neck sore, pain, pins, needles in any limb,
      loss of movement, tingling sensation, diorientation, impaired breathing, back neck deformity, bruising in spinal column, fluid or blood in ears.
      .(References from SLSS manual)`);
+} else if (elementId === 'neck injury') {
+    alert(`Result of vertical compression and forward bending with rotation 
+    => ligaments may break and vertebrae fractured,
+    => thus any movement of the spind may damage spinal cord, quadriplegia(paralysis of all 4 limbs)
+        .(References from SLSS manual)`);
    
 } else if (elementId === 'spinal rescue') {
     alert(`STEPS
@@ -101,6 +106,26 @@ function displayAnswer(elementId) {
     7-remove from water > spinal board
     8-follow up
     .(References from SLSS manual)`);
+
+} else if (elementId === 'vice grip') {
+    alert(`
+    -for suspected spinal injury;  
+    -approach from side;  
+    -place one forearm along spine with hand cupping back of casualty's head;  
+    -other forearm on casualty's sternum supporting jaw;  
+    -lock both writs and squeeze the forearms together to create a vice, this immobilises casualty's body with an upward downward pressure;  
+    -for casualty face down in water, vice grip first then rotate person to face up;   
+    -move carefully minimise motion altering casualty's hips and legs.
+    
+    .(References from SLSS manual)`);
+
+} else if (elementId === 'vice grip video') {
+    window.open(href="https://youtu.be/z6-UhOZ6X1A?si=gmyPqopHQX4-Wlyk",'chat AI','resizable,height=300,width=500');
+
+} else if (elementId === 'extended arm rollover video') {
+    window.open(href="https://youtu.be/1ANZhOqZs9w?si=Ha77cKpOg8I-1DUN",'chat AI','resizable,height=300,width=500');
+
+    
 
 } else if (elementId === 'jaw thrust') {
     alert(`without head tilt chin lift,
