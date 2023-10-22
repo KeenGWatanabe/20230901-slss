@@ -135,8 +135,8 @@ function displayAnswer(elementId) {
 
     `);    
 
-} else if (elementId === '') {
-    alert(`
-    .(References from SLSS manual)`);        
+} else if (elementId === 's5 spinalVideo') {
+    window.open(href="s5SpinalVid.html",'chat AI','resizable,height=300,width=500');
+
 }                         
 }         
