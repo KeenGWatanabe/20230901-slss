@@ -118,6 +118,20 @@ function displayAnswer(elementId) {
     -move carefully minimise motion altering casualty's hips and legs.
     
     .(References from SLSS manual)`);
+} else if (elementId === 'extend arm rollover') {
+    alert(`
+    - approch from side;
+    - rescuer facing towards casualty's head;
+    - extend casualty's arms to level of ears, press them firmly alongside the head;
+    - maintain grip on arms, thumbs lightly on back of casualty's head (to prevent neck extension);
+    - move casualty gently, slowly, horizontally, in head direction forward;
+    - same time roll casualty face out, lower your body with arms doing it;
+    - finish the roll with casualty resting on crook of your arm;
+    - pull inward so casualty press against your chest with your far arm;
+    - move your free arm to support the body;
+
+    .(References from SLSS manual)`);
+
 
 } else if (elementId === 'vice grip video') {
     window.open(href="https://youtu.be/z6-UhOZ6X1A?si=gmyPqopHQX4-Wlyk",'chat AI','resizable,height=300,width=500');
