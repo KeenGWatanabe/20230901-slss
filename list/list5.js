@@ -134,8 +134,8 @@ function displayAnswer(elementId) {
 
 
 } else if (elementId === 'vice grip video') {
-    window.open(href="https://youtu.be/z6-UhOZ6X1A?si=gmyPqopHQX4-Wlyk",'chat AI','resizable,height=300,width=500');
-
+    window.open(href="../videos/ViceGripVideo.mp4",'chat AI','resizable,height=300,width=500');
+//https://youtu.be/z6-UhOZ6X1A?si=gmyPqopHQX4-Wlyk
 } else if (elementId === 'extended arm rollover video') {
     window.open(href="https://youtu.be/1ANZhOqZs9w?si=Ha77cKpOg8I-1DUN",'chat AI','resizable,height=300,width=500');
 
