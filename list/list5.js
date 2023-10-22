@@ -86,8 +86,8 @@ function displayAnswer(elementId) {
 } else if (elementId === 'spinal injury') {
      alert(`Impact of hitting bottom of a pool can literally destroy the spinal cord
      Highly skilled lifesaver will treat any unconscious person as a possible spinal injury;
-     any perons leaves water complaining of neck sore, pain, pins, needles in any limb,
-     loss of movement, tingling sensation, diorientation, impaired breathing, back neck deformity, bruising in spinal column, fluid or blood in ears.
+     any person leaves water complaining of neck sore, pain, pins, needles in any limb,
+     loss of movement, tingling sensation, disorientation, impaired breathing, back neck deformity, bruising in spinal column, fluid or blood in ears.
      .(References from SLSS manual)`);
 } else if (elementId === 'neck injury') {
     alert(`Result of vertical compression and forward bending with rotation 
