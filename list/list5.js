@@ -138,7 +138,7 @@ function displayAnswer(elementId) {
 } else if (elementId === 'jaw thrust') {
     alert(`without head tilt chin lift,
     -use both hands, thumbs press below casualty's cheek bones;
-    -fingers clench casualty's jaw joint and press upwards.
+    -fingers clench casualty's jaw joint(mandible) and press upwards.
     -this moves the jaw with the tongue forwards, and opens the airway
 
     `);    
