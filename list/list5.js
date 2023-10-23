@@ -123,7 +123,7 @@ function displayAnswer(elementId) {
     .(References from SLSS manual)`);
 } else if (elementId === 'extend arm rollover') {
     alert(`
-    - approch from side;
+    - approach from side;
     - rescuer facing towards casualty's head;
     - extend casualty's arms to level of ears, press them firmly alongside the head;
     - maintain grip on arms, thumbs lightly on back of casualty's head (to prevent neck extension);
@@ -131,7 +131,7 @@ function displayAnswer(elementId) {
     - same time roll casualty face out, lower your body with arms doing it;
     - finish the roll with casualty resting on crook of your arm;
     - pull inward so casualty press against your chest with your far arm;
-    - move your free arm to support the body;
+    - (your free arm to support the body);
 
     .(References from SLSS manual)`);
 
